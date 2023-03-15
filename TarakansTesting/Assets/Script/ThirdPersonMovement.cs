@@ -11,20 +11,20 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private float _vertical, _horizontal; //Переменные для вертикали и горизонтали
 
-    private readonly string STR_VERTICAL = "Vertical";
+    private readonly string STR_VERTICAL = "Vertical"; //Строчная переменная для обращения к компоненту Vertical в PlayerPrefs для отслеживания изменения координат
 
-    private readonly string STR_HORIZONTAL = "Horizontal";
+    private readonly string STR_HORIZONTAL = "Horizontal"; //Строчная переменная для обращения к компоненту Horizontal в PlayerPrefs для отслеживания изменения координат
 
-    private readonly string STR_JUMP = "Jump";
+    private readonly string STR_JUMP = "Jump"; // Строчная переменная для обращения к переменной в аниматоре прыжка
 
-    private readonly string STR_AIR = "isInAir";
+    private readonly string STR_AIR = "isInAir"; // Строчная переменная для обращения к переменной в аниматоре для проверки нахождения персонажа на земле
 
 
     private CharacterController _controller; //Компонент CharacterController,который будет двигать персонажа
 
-    private Animator _animator;
+    private Animator _animator; //Создаем переменноую аниматора для упрощения обращения 
 
-    private Rigidbody _rb;
+    private Rigidbody _rb; 
 
     private const float DISTANSE_OFFSET_CAMERA = 5f; //Расстояние от камеры до точки, в которую будем поворачивать персонажа
 
@@ -32,7 +32,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private Quaternion _look; //Переменная для записи поворота персонажа
 
-    private Vector3 TargetRotate => _camera.forward * DISTANSE_OFFSET_CAMERA;
+    private Vector3 TargetRotate => _camera.forward * DISTANSE_OFFSET_CAMERA; //Задаём расстояние от объекта игрока до камеры, вокруг которого будет осуществляться вращение
 
     private void Start()
     {
@@ -55,13 +55,15 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private void InAir()
     {
-        if(_controller.isGrounded)
+        if(_controller.isGrounded) //Проверка стоит ли на земле наш игрок
         {
-            _animator.SetBool(STR_AIR, false);//Прописываем проверку в воздухе ли мы для анимации прыжка
+            _animator.SetBool(STR_AIR, false);//Прописываем проверку в воздухе ли мы для анимации падения, если true - анимация не проигрывается,
+                                            //если false - анимация падения запускается после срабатывания анимации прыжка и длится до тех пор,
+                                            //пока персонаж не приземлиться, затем срабатывает анимация приземления
         }
         else
         {
-            _animator.SetBool(STR_AIR, true);
+            _animator.SetBool(STR_AIR, true); 
         }
     }
 
