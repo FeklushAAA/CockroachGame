@@ -10,17 +10,19 @@ public class CameraFollow : MonoBehaviour
 
     [SerializeField] [Range(30.0f, 45.0f)] private float maxVerticalAngle = 45.0f; // максимальный угол возвышения камеры
 
-    [SerializeField] [Range(-30.0f, -45.0f)] private float minVerticalAngle = -45.0f; // минимальный угол возвышения камеры
+    [SerializeField] [Range(0.0f, -30.0f)] private float minVerticalAngle = -45.0f; // минимальный угол возвышения камеры
 
     [SerializeField] private Transform _target; //Добавляем сюда нашего персонажа, вокруг которого будет двигаться камера
 
     private float _angleHorizontal; // Переменная для трансформа по Х горизонтали
+
     private float _angleVertical; // Переменная для трансформа по Y Вертикали
 
     private void Start()
     {
         _angleVertical = transform.rotation.y;
         _angleHorizontal = transform.rotation.x;
+        Screen.lockCursor = true;
     }
 
     private void Update()
@@ -32,7 +34,11 @@ public class CameraFollow : MonoBehaviour
 
         transform.position = _target.transform.position;
         transform.rotation = Quaternion.Euler(_angleVertical, _angleHorizontal, 0); //Вычисляем кватернион поворота камеры
+
+        if (Input.GetKeyDown("escape"))
+            Screen.lockCursor = false;
     }
+
 
 
 

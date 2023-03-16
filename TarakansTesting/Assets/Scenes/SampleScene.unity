@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657755, g: 0.4964127, b: 0.57481825, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657642, g: 0.49641156, b: 0.5748181, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -402,10 +402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20090e831a55c784ab08fb43aa53aa4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _angulatSpeedHorizontal: 1
+  _angulatSpeedHorizontal: 3
   _angulatSpeedVertical: 1
   maxVerticalAngle: 45
-  minVerticalAngle: -45
+  minVerticalAngle: -10
   _target: {fileID: 543450652674609115}
 --- !u!4 &205752694
 Transform:
@@ -415,7 +415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205752692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.75, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -700,6 +700,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3758222515182152464, guid: 3ac7ebd3535d29743bb6988d618dec2d, type: 3}
   m_PrefabInstance: {fileID: 314220372}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &341648329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7312344759440608057, guid: 944e8aab4757af247bbe8ad8a1473c9c, type: 3}
+  m_PrefabInstance: {fileID: 14939308812536371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &353859987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8605626703741199674, guid: ed5973a75a184384aa68311bb4aa9ed7, type: 3}
@@ -755,7 +760,7 @@ Camera:
   m_GameObject: {fileID: 356489539}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -1741,7 +1746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1540811670647598185, guid: 2888442d20b8c2748bc9c2627c7fb1e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.084915
+      value: -19.42
       objectReference: {fileID: 0}
     - target: {fileID: 1540811670647598185, guid: 2888442d20b8c2748bc9c2627c7fb1e4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1877,7 +1882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6330613104815637682, guid: 09959cd50c4b2c543b817fbd76f63205, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.674915
+      value: -27.01
       objectReference: {fileID: 0}
     - target: {fileID: 6330613104815637682, guid: 09959cd50c4b2c543b817fbd76f63205, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3288,6 +3293,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7822645954703514252, guid: d407db265f8991343aff937d92da4ee1, type: 3}
   m_PrefabInstance: {fileID: 2004934836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2008856224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2008856225}
+  - component: {fileID: 2008856226}
+  m_Layer: 0
+  m_Name: Ammo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2008856225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008856224}
+  m_LocalRotation: {x: -0.0000005662441, y: -0.7615454, z: 0.64811164, w: 0.0000003434252}
+  m_LocalPosition: {x: 0.00045, y: -0.00009, z: 0.00424}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 341648329}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -20, y: 0, z: 0}
+--- !u!114 &2008856226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008856224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532af674fccffcb42a0a41ea268ada40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shooting: {fileID: 11400000, guid: 1876ccae88e37b74491360521177dce6, type: 2}
+  _ammo: {fileID: 3988479900909443731, guid: 8df9a2b01ee1d4c4e8c1e3cfca9d1bff, type: 3}
+  _spawnPoint: {fileID: 2008856225}
 --- !u!1001 &14939308812536371
 PrefabInstance:
   m_ObjectHideFlags: 0
