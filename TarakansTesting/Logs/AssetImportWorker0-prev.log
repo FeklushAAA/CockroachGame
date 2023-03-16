@@ -15,7 +15,7 @@ E:/CockroachGame/TarakansTesting
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59275
+51677
 Successfully changed project path to: E:/CockroachGame/TarakansTesting
 E:/CockroachGame/TarakansTesting
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/CockroachGame/TarakansTesting
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,47 +63,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.136442 seconds.
+Registered in 0.006201 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.860 seconds
+- Completed reload, in  0.489 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3860ms)
-		BeginReloadAssembly (2784ms)
+	ReloadAssembly (489ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (672ms)
-			LoadAssemblies (2786ms)
+		EndReloadAssembly (343ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
+			SetupTypeCache (75ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (227ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002722 seconds.
+Registered in 0.002811 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -112,29 +112,29 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
+- Completed reload, in  0.761 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1297ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (762ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1102ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (561ms)
+			SetupTypeCache (179ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (323ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -142,13 +142,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (111.4 KB). Loaded Objects now: 3501.
-Memory consumption went from 107.7 MB to 107.6 MB.
-Total: 2.316500 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.073800 ms MarkObjects: 1.999700 ms  DeleteObjects: 0.087300 ms)
+Unloading 24 unused Assets / (111.3 KB). Loaded Objects now: 3501.
+Memory consumption went from 107.8 MB to 107.7 MB.
+Total: 2.468400 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.128000 ms  DeleteObjects: 0.078400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,139 +162,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 800643.108405 seconds.
-  path: Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/Banana.fbx
-  artifactKey: Guid(b0eb23363db2e3b4592e7ae871ebd721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/Banana.fbx using Guid(b0eb23363db2e3b4592e7ae871ebd721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0507b84fc6a46e98ae9060806d1917') in 0.269279 seconds 
+  Time since last request: 4576.534791 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels
+  artifactKey: Guid(f4429bc457de9ec4dac3d93e2369c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels using Guid(f4429bc457de9ec4dac3d93e2369c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728de0569823c3f0a5427db6153c919') in 0.009013 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.421369 seconds.
-  path: Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/WideJar.fbx
-  artifactKey: Guid(8f986664ae4e11846af47379590e397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/WideJar.fbx using Guid(8f986664ae4e11846af47379590e397b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333ecdebaa08ac0140dd8c4afa7c8acc') in 0.014505 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/CockroachStreifRight.fbx
+  artifactKey: Guid(e064b6160a9404d4ab558cb02ab476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/CockroachStreifRight.fbx using Guid(e064b6160a9404d4ab558cb02ab476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a88697cdf6782bffafde3196923126') in 0.130986 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.157849 seconds.
-  path: Assets/Levels/LevelOne/LevelOneFurniture/ModelsLevelOneFurniture/Bed.fbx
-  artifactKey: Guid(9c81023e13945fa48910ade2eac38d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneFurniture/ModelsLevelOneFurniture/Bed.fbx using Guid(9c81023e13945fa48910ade2eac38d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61714b9e230fc23de0eea4978aebb02f') in 0.016086 seconds 
+  Time since last request: 14.811958 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/CockroachStreifRight.fbx
+  artifactKey: Guid(e064b6160a9404d4ab558cb02ab476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/CockroachStreifRight.fbx using Guid(e064b6160a9404d4ab558cb02ab476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e79a731ee5d67b2d44bfd81ca87082b') in 0.056995 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.706273 seconds.
-  path: Assets/Levels/LevelOne/LevelOneFurniture/ModelsLevelOneFurniture/Dresser.fbx
-  artifactKey: Guid(ba7fa2078f35f35489aec3789c197be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneFurniture/ModelsLevelOneFurniture/Dresser.fbx using Guid(ba7fa2078f35f35489aec3789c197be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edf00ccdd2c3e1e18b4c515ae59f4d6') in 0.013480 seconds 
+  Time since last request: 29.775807 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/CockroachStreifRight.fbx
+  artifactKey: Guid(e064b6160a9404d4ab558cb02ab476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/CockroachStreifRight.fbx using Guid(e064b6160a9404d4ab558cb02ab476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbea2a660a89f460ce3f3434b0f447a4') in 0.035242 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.388282 seconds.
-  path: Assets/Levels/LevelOne/LevelOneTaE/MaterialLevelOneTaE
-  artifactKey: Guid(a1f23a232205a7047bb758ea927a40ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneTaE/MaterialLevelOneTaE using Guid(a1f23a232205a7047bb758ea927a40ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee131d2bfc28efc55d5572709bcc3a5') in 0.005693 seconds 
+  Time since last request: 160.325946 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/CockroachRig_CockroachStreifRight.anim
+  artifactKey: Guid(6d352fe88b67a63478dd3947d2950440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/CockroachRig_CockroachStreifRight.anim using Guid(6d352fe88b67a63478dd3947d2950440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f823dfeb09a944d982c817c99b892d1') in 0.010598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.085524 seconds.
-  path: Assets/Levels/LevelOne/LevelOneWaA/New Folder
-  artifactKey: Guid(ca759768ec76eec4fa80336d07e0ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneWaA/New Folder using Guid(ca759768ec76eec4fa80336d07e0ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ae09fb5a94ae35a03bf0c95d69bf74') in 0.005055 seconds 
+  Time since last request: 20.373894 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/StreifRight.anim
+  artifactKey: Guid(6d352fe88b67a63478dd3947d2950440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/StreifRight.anim using Guid(6d352fe88b67a63478dd3947d2950440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3d3ea8abe0f3e3f85baf3ab38f5be0') in 0.009310 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.601022 seconds.
-  path: Assets/Levels/LevelOne/LevelOneWaA/LevelOneWaA
-  artifactKey: Guid(ca759768ec76eec4fa80336d07e0ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneWaA/LevelOneWaA using Guid(ca759768ec76eec4fa80336d07e0ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f189fd0fb90a333a7a797714554530e') in 0.004642 seconds 
+  Time since last request: 17.854280 seconds.
+  path: Assets/Caracter/CaracterAnimation/CockroachAnimation.controller
+  artifactKey: Guid(fd9921debdd11b34ab5cda065bd79103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/CockroachAnimation.controller using Guid(fd9921debdd11b34ab5cda065bd79103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e7d34aec3f26db577c6ce52bc8a15c') in 0.025675 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.143763 seconds.
-  path: Assets/Levels/LevelOne/LevelOneWaA/MaterialLevelOneWaA
-  artifactKey: Guid(ca759768ec76eec4fa80336d07e0ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneWaA/MaterialLevelOneWaA using Guid(ca759768ec76eec4fa80336d07e0ddcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df58f28dbd39ed28be0e5948421541a6') in 0.004424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.617548 seconds.
-  path: Assets/Levels/LevelOne/LevelOneTaE/ModelsLevelOneTaE/Fan.fbx
-  artifactKey: Guid(3e7fdda312faac74897e9bf191196a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneTaE/ModelsLevelOneTaE/Fan.fbx using Guid(3e7fdda312faac74897e9bf191196a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd015d8bebdf811afe3b9281f281740ea') in 0.014056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.479313 seconds.
-  path: Assets/Levels/LevelOne/LevelOneTaE/ModelsLevelOneTaE/Guitar.fbx
-  artifactKey: Guid(bfd34dd09185a6e4192ac4ec5c1e44b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneTaE/ModelsLevelOneTaE/Guitar.fbx using Guid(bfd34dd09185a6e4192ac4ec5c1e44b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5828deff862d5368b423b63c928b7e') in 0.013966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.903322 seconds.
-  path: Assets/Levels/LevelOne/LevelOneWaA/ModelsLevelOneWaA/Door.fbx
-  artifactKey: Guid(2bcde99825350254ca91598a2a0ecb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneWaA/ModelsLevelOneWaA/Door.fbx using Guid(2bcde99825350254ca91598a2a0ecb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcecaf40d3b35ee52f3b8e9e1db4971') in 0.013455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.107238 seconds.
-  path: Assets/Levels/LevelOne/LevelOneWaA/ModelsLevelOneWaA/ОpenJar.fbx
-  artifactKey: Guid(97dd49b1ebef4c34a9701b3750ddd480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneWaA/ModelsLevelOneWaA/ОpenJar.fbx using Guid(97dd49b1ebef4c34a9701b3750ddd480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10cc0efa8fe5ecd73146723ee024439') in 0.013998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.377774 seconds.
-  path: Assets/Levels/LevelOne/LevelOneWaA/ModelsLevelOneWaA/Heap.fbx
-  artifactKey: Guid(9780d45f51cfd8949aab86c9db5eadf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneWaA/ModelsLevelOneWaA/Heap.fbx using Guid(9780d45f51cfd8949aab86c9db5eadf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df079fae3c3ae6f122de6401e39d020') in 0.012653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1101.185042 seconds.
-  path: Assets/Levels/LevelOne/Prefabs
-  artifactKey: Guid(f51ee708a1849ad468639b9f3cd24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/Prefabs using Guid(f51ee708a1849ad468639b9f3cd24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cdfbdee60594188b2b3a4930e6beb8') in 0.004771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.933979 seconds.
-  path: Assets/Levels/LevelOne/Prefabs/Banana.prefab
-  artifactKey: Guid(afd6320db3c22f44180aeee868eab0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/Prefabs/Banana.prefab using Guid(afd6320db3c22f44180aeee868eab0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d58a57a688c803b3ddfa464f79221f') in 0.009779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 398.614819 seconds.
-  path: Assets/Levels/LevelOne/Prefabs/Banana.prefab
-  artifactKey: Guid(afd6320db3c22f44180aeee868eab0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/Prefabs/Banana.prefab using Guid(afd6320db3c22f44180aeee868eab0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f862c46ac5ef0ddde716f422f323c224') in 0.009329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 101.351332 seconds.
-  path: Assets/Levels/LevelOne/Prefabs/LevelOneDaF.prefab
-  artifactKey: Guid(90df2602064fa0143a930298558d171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/Prefabs/LevelOneDaF.prefab using Guid(90df2602064fa0143a930298558d171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569bc5bbf7e5c971b858df240ccfdd50') in 0.014329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.216041 seconds.
-  path: Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF
-  artifactKey: Guid(c53fd902a00de694980698596a556f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF using Guid(c53fd902a00de694980698596a556f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866fa70d0e901465f4e4cdb9eea36b10') in 0.005221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.526049 seconds.
-  path: Assets/Levels/LevelOne/Prefabs/LevelOneDaF.prefab
-  artifactKey: Guid(90df2602064fa0143a930298558d171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/Prefabs/LevelOneDaF.prefab using Guid(90df2602064fa0143a930298558d171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34ff1e1d72fab0f80e6ec0d8bb92540') in 0.014171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.646131 seconds.
-  path: Assets/Levels/LevelOne/Prefabs/LevelOneDaF.prefab
-  artifactKey: Guid(90df2602064fa0143a930298558d171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/Prefabs/LevelOneDaF.prefab using Guid(90df2602064fa0143a930298558d171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5719e493b6ac6cf719a4e85d9dec2dce') in 0.019156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.852849 seconds.
-  path: Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/BigBottle.fbx
-  artifactKey: Guid(6061a5538edd2984abc9d7b7bcad2089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/BigBottle.fbx using Guid(6061a5538edd2984abc9d7b7bcad2089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaace93b2cc70b9aa3166a4aafadc4b') in 0.013131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.799585 seconds.
-  path: Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/Plate.fbx
-  artifactKey: Guid(e0f56b1566668c147aa13c5f4a72ce9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/LevelOneDaF/ModelsLevelOneDaF/Plate.fbx using Guid(e0f56b1566668c147aa13c5f4a72ce9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b78158d55d6f955b0d5e2c43410616') in 0.011763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 106.610323 seconds.
-  path: Assets/Levels/LevelOne/PrefabsLevelOne/LevelOneDaF.prefab
-  artifactKey: Guid(a560751144890bd439aa3f70bd0ce239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/LevelOne/PrefabsLevelOne/LevelOneDaF.prefab using Guid(a560751144890bd439aa3f70bd0ce239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d78e9330e4e96dbbd1eb646f00e9b3') in 0.012250 seconds 
+  Time since last request: 221.108319 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/CockroachRig_CockroachStreifRight.anim
+  artifactKey: Guid(6d352fe88b67a63478dd3947d2950440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/CockroachRig_CockroachStreifRight.anim using Guid(6d352fe88b67a63478dd3947d2950440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3246116c04209b8cc60add72c22479bc') in 0.004999 seconds 
