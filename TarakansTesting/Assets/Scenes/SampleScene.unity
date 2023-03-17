@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657642, g: 0.49641156, b: 0.5748181, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657755, g: 0.4964127, b: 0.57481825, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3318,7 +3318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008856224}
   m_LocalRotation: {x: -0.0000005662441, y: -0.7615454, z: 0.64811164, w: 0.0000003434252}
-  m_LocalPosition: {x: 0.00045, y: -0.00009, z: 0.00424}
+  m_LocalPosition: {x: 0.00045, y: -0.0115, z: 0.0026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3338,7 +3338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _shooting: {fileID: 11400000, guid: 1876ccae88e37b74491360521177dce6, type: 2}
-  _ammo: {fileID: 3988479900909443731, guid: 8df9a2b01ee1d4c4e8c1e3cfca9d1bff, type: 3}
+  _ammo: {fileID: -7963146801703418990, guid: 2268bd53e23a680498ece9d47e4d93b8, type: 3}
   _spawnPoint: {fileID: 2008856225}
 --- !u!1001 &14939308812536371
 PrefabInstance:
