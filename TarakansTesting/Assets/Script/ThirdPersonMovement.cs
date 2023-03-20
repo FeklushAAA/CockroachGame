@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
-    [SerializeField] private Transform _camera; //Поле для камеры
+    [SerializeField] private Transform _camera; //Поле для пустого объекта с камеры
     
     [SerializeField] private MovementCharacteristics _characteristics; //Ссылка на значения характеристик из другого скрипта
+
+    [SerializeField] private CameraCharacteristics _camCharacteristics;
+
 
     private float _vertical, _horizontal; //Переменные для вертикали и горизонтали
 
@@ -24,26 +27,25 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private Animator _animator; //Создаем переменноую аниматора для упрощения обращения 
 
-    private Rigidbody _rb; 
-
-    private const float DISTANSE_OFFSET_CAMERA = 5f; //Расстояние от камеры до точки, в которую будем поворачивать персонажа
-
     private Vector3 _direction; //Переменная для записи направления перемещения
 
     private Quaternion _look; //Переменная для записи поворота персонажа
-
-    private Vector3 TargetRotate => _camera.forward * DISTANSE_OFFSET_CAMERA; //Задаём расстояние от объекта игрока до камеры, вокруг которого будет осуществляться вращение
 
     private void Start()
     {
         _animator = GetComponent<Animator>();
 
-        _rb = GetComponent<Rigidbody>();
-
         _controller = GetComponent<CharacterController>(); //Считываем Черектер контроллер
 
         Cursor.visible = _characteristics.VisibleCursor; //Отображение курсора зависит от флага в контейнере
         
+    }
+
+    private void Update()
+    {
+
+ 
+
     }
 
     private void FixedUpdate()
@@ -90,7 +92,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private void Rotate()
     {
-        Vector3 target = TargetRotate;
+        Vector3 target = _camera.forward * 4f; //Начальный наклон камеры при запуске игры
         target.y = 0;
 
         _look = Quaternion.LookRotation(target);
@@ -99,6 +101,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         transform.rotation = Quaternion.RotateTowards(transform.rotation, _look, speed);
     }
+
 
     private void Jump()
     {
@@ -119,3 +122,4 @@ public class ThirdPersonMovement : MonoBehaviour
         _animator.SetFloat(STR_HORIZONTAL, _horizontal);
     }    
 }
+

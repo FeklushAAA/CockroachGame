@@ -1,11 +1,5 @@
 using UnityEngine;
 
-/* Добавляем поля скорости перемещения, поворота, гравитации в классе контейнере
-   Его мы будем наследовать от Scriptable Object
-   Все поля будут приватными, а все данные будем получать с помощью свойств, бьез возмодности изменения.
-   Таким образом мы сможем только считывать данные
-*/
-
 [CreateAssetMenu(fileName = "Characteristics", menuName = "Movement/MovementCharacteristics", order = 1)]
 
 public class MovementCharacteristics : ScriptableObject
