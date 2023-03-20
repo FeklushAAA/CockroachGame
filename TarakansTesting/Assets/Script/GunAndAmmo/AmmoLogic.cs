@@ -13,6 +13,16 @@ public class AmmoLogic : MonoBehaviour
         Invoke("DestroyBullet", _lifeTime);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Enemy"))
+        {
+            other.GetComponent<EnemyHealth>().TakeDamage(_shooting.Damage);
+            DestroyBullet();
+            Debug.Log("Popal");
+        }
+    }
+
     private void DestroyBullet()
     {
         Destroy(this.gameObject);
