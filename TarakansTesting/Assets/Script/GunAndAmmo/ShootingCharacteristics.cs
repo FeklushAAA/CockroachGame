@@ -10,11 +10,12 @@ public class ShootingCharacteristics : ScriptableObject
 
     [SerializeField] private float _ammoForce;
 
-    // [SerializeField] public float _lifeTime;
+    [SerializeField] private int _damage = 20;
 
     public float AmmoForce => _ammoForce;
     
     public float AmmoSpeed => _ammoSpeed;
 
-    // public float LifeTime => _lifeTime;
+    public int Damage => _damage;
+
 }
