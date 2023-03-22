@@ -19,7 +19,14 @@ public class AmmoLogic : MonoBehaviour
         {
             other.GetComponent<EnemyHealth>().TakeDamage(_shooting.Damage);
             DestroyBullet();
-            Debug.Log("Popal");
+            Debug.Log("Противник получил урон");
+        }
+
+        if(other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerHealth>().TakeDamage(_shooting.Damage);
+            DestroyBullet();
+            Debug.Log("Игрок получил урон");
         }
     }
 
