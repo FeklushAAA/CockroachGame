@@ -16,6 +16,7 @@ public class Shooting : MonoBehaviour
             projectileInstance.velocity = _spawnPoint.forward * _shooting.AmmoSpeed;
             projectileInstance.AddForce(_spawnPoint.forward * _shooting.AmmoForce);
             // Add shooting sound effect here
+            Debug.Log("Игрок выстрелил");
         }
     }
 }

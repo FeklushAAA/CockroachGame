@@ -116,7 +116,7 @@ public class ThirdPersonMovement : MonoBehaviour
         
     }
 
-    private void PlayAnimation()
+    public void PlayAnimation()
     {
         _animator.SetFloat(STR_VERTICAL, _vertical);
         _animator.SetFloat(STR_HORIZONTAL, _horizontal);

@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] private ShootingCharacteristics _shooting; //Ссылка на значения характеристик из другого скрипта
-    public int startingHealth = 100;
-    public int currentHealth;
+    [SerializeField] private int startingHealth = 100;
 
-    ParticleSystem hitParticles;
-    CapsuleCollider capsuleCollider;
-    bool isDead;
+    private int currentHealth;
+
+    private CapsuleCollider capsuleCollider;
+
+    private bool isDead;
 
     private void Awake()
     {
-        hitParticles = GetComponentInChildren<ParticleSystem>();
         capsuleCollider = GetComponent<CapsuleCollider>();
 
         currentHealth = startingHealth;
@@ -29,19 +28,17 @@ public class EnemyHealth : MonoBehaviour
 
         currentHealth -= amount;
 
-        hitParticles.Play();
-
         if(currentHealth <= 0 )
         {
             Death();
         }
     }
 
-    private void Death()
+    public void Death()
     {
         isDead = true;
         capsuleCollider.isTrigger = true;
         Destroy(gameObject);
-        Debug.Log("Umer");
+        Debug.Log("EnemyUmer");
     }
 }
