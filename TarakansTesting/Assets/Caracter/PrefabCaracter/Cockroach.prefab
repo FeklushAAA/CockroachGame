@@ -359,8 +359,8 @@ Transform:
   - {fileID: 5540244832598158076}
   - {fileID: 4445879544350419144}
   - {fileID: 2075468113933228160}
-  - {fileID: 2376704933091505600}
   - {fileID: 7312344759440608057}
+  - {fileID: 2376704933091505600}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -416,6 +416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _camera: {fileID: 0}
   _characteristics: {fileID: 11400000, guid: 6add24ee9ca1d60498563da2a989a96f, type: 2}
+  _camCharacteristics: {fileID: 0}
 --- !u!1 &974666848463172908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1775,7 +1776,7 @@ Transform:
   m_Children:
   - {fileID: 4788575648875481906}
   m_Father: {fileID: 558352094888314344}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3500015013372344912
 GameObject:
@@ -3172,7 +3173,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 558352094888314344}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6219940480241547241
 SkinnedMeshRenderer:
