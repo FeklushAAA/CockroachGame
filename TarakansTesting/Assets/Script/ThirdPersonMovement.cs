@@ -22,7 +22,6 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private readonly string STR_AIR = "isInAir"; // Строчная переменная для обращения к переменной в аниматоре для проверки нахождения персонажа на земле
 
-
     private CharacterController _controller; //Компонент CharacterController,который будет двигать персонажа
 
     private Animator _animator; //Создаем переменноую аниматора для упрощения обращения 
@@ -116,7 +115,7 @@ public class ThirdPersonMovement : MonoBehaviour
         
     }
 
-    public void PlayAnimation()
+    private void PlayAnimation()
     {
         _animator.SetFloat(STR_VERTICAL, _vertical);
         _animator.SetFloat(STR_HORIZONTAL, _horizontal);
