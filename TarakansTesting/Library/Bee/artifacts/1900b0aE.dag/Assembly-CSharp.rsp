@@ -350,16 +350,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Script/CameraCharacteristics.cs"
 "Assets/Script/GunAndAmmo/AmmoLogic.cs"
 "Assets/Script/GunAndAmmo/EnemyHealth.cs"
 "Assets/Script/GunAndAmmo/EnemyLogic.cs"
-"Assets/Script/GunAndAmmo/PlayerHealth.cs"
 "Assets/Script/GunAndAmmo/Shooting.cs"
 "Assets/Script/GunAndAmmo/ShootingCharacteristics.cs"
-"Assets/Script/MovementCharacteristics.cs"
-"Assets/Script/ThirdPersonMovement.cs"
-"Assets/Script/WoWcamera.cs"
+"Assets/Script/Player/CameraCharacteristics.cs"
+"Assets/Script/Player/MovementCharacteristics.cs"
+"Assets/Script/Player/PlayerHealth.cs"
+"Assets/Script/Player/ThirdPersonMovement.cs"
+"Assets/Script/Player/WoWcamera.cs"
 -langversion:9.0
 
 /deterministic

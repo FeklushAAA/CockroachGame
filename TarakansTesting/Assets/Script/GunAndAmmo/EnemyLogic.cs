@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class EnemyLogic : MonoBehaviour
 {
+    [Header ("Подключение объектов")]
+
+    [Space (10)]
+
     [SerializeField] private ShootingCharacteristics _shooting; //Ссылка на значения характеристик из другого скрипта
     
     [SerializeField] private Rigidbody _enemyAmmo;
@@ -11,27 +15,33 @@ public class EnemyLogic : MonoBehaviour
     [SerializeField] private Transform _enemySpawnPoint;
 
 
-    public float moveSpeed = 3f;
-    public float attackRange = 1f;
-    public int attackDamage = 10;
+    [Header ("Изменение параметров врага")]
 
-    Transform player;
-    PlayerHealth playerHealth;
-    EnemyHealth enemyHealth;
-    Animator anim;
+    [Space (10)]
+
+    [SerializeField] private float moveSpeed = 3f;
+
+    [SerializeField] private float attackRange = 1f;
+
+    [SerializeField] private int attackDamage = 10;
+
+    private Transform player;
+    private PlayerHealth playerHealth;
+    private EnemyHealth enemyHealth;
+    private Animator anim;
 
     float attackTimer;
 
 
 
-    void Start()
+    private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         playerHealth = player.GetComponent<PlayerHealth>();
         enemyHealth = GetComponent<EnemyHealth>();
     }
 
-    void Update()
+    private void Update()
     {
         Move();
 
@@ -45,7 +55,7 @@ public class EnemyLogic : MonoBehaviour
     }
 
 
-    void Move()
+    private void Move()
     {
         Vector3 direction = (player.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
@@ -53,7 +63,7 @@ public class EnemyLogic : MonoBehaviour
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
     }
 
-    void Attack()
+    private void Attack()
     {
         attackTimer = 0f;
 
