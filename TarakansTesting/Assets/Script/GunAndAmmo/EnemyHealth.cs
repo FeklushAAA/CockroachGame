@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    [Header ("Количество ХП у противника")]
+
+    [Space (10)]
+
     [SerializeField] private int startingHealth = 100;
 
     private int currentHealth;
