@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyLogic : MonoBehaviour
 {
@@ -15,52 +16,83 @@ public class EnemyLogic : MonoBehaviour
     [SerializeField] private Transform _enemySpawnPoint;
 
 
+
+
     [Header ("Изменение параметров врага")]
 
     [Space (10)]
 
-    [SerializeField] private float moveSpeed = 3f;
+    // [SerializeField] private float moveSpeed = 3f;
 
-    [SerializeField] private float attackRange = 1f;
+    // [SerializeField] private float attackRange = 1f;
 
     [SerializeField] private int attackDamage = 10;
 
     private Transform player;
     private PlayerHealth playerHealth;
     private EnemyHealth enemyHealth;
-    private Animator anim;
+    private Animator animator;
+    private NavMeshAgent AI_agent;
+    private enum AI_state {Patrol, Stay};
+    private int currentPoint;
+    
+    private float attackTimer;
+    
+    [Header ("Точки патрулирования врага")]
 
-    float attackTimer;
+    [Space (10)]
 
+    [SerializeField] private Transform[] WayPoints;
 
+    [SerializeField] private AI_state AI_enemy;
 
     private void Start()
     {
+        AI_agent = gameObject.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         playerHealth = player.GetComponent<PlayerHealth>();
         enemyHealth = GetComponent<EnemyHealth>();
+        animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        Move();
-
-        attackTimer += Time.deltaTime;
-        
-        if(attackTimer >= 1)
+        if(AI_enemy == AI_state.Patrol)
         {
-            Attack();
-            Debug.Log("Противник выстрелил");
+            AI_agent.Resume();
+            animator.SetBool("move", true);
+            AI_agent.SetDestination(WayPoints[currentPoint].transform.position);
+            float pointDistance = Vector3.Distance(WayPoints[currentPoint].transform.position, gameObject.transform.position);
+
+            if(pointDistance < 4)
+            {
+                currentPoint++;
+                currentPoint = currentPoint % WayPoints.Length;
+            }
         }
-    }
 
+        if(AI_enemy == AI_state.Stay)
+        {
+            animator.SetBool("move", false);
+            AI_agent.Stop();
+        }
 
-    private void Move()
-    {
-        Vector3 direction = (player.position - transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(direction);
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        float playerDistance = Vector3.Distance(player.transform.position, gameObject.transform.position);
+
+        if(playerDistance < 8)
+        {
+            attackTimer += Time.deltaTime;
+        
+            if(attackTimer >= 1)
+            {
+                Attack();
+                Debug.Log("Противник выстрелил");
+            }
+
+            AI_agent.SetDestination(player.transform.position);
+        }
+
+        
     }
 
     private void Attack()
@@ -69,7 +101,6 @@ public class EnemyLogic : MonoBehaviour
 
         Rigidbody projectileInstance = Instantiate(_enemyAmmo, _enemySpawnPoint.position, _enemySpawnPoint.rotation);
         projectileInstance.velocity = projectileInstance.transform.forward * _shooting.AmmoSpeed;
-        // projectileInstance.AddForce(_enemySpawnPoint.forward * _shooting.AmmoForce);
         playerHealth.TakeDamage(attackDamage);
     }
 }
