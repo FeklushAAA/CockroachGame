@@ -21,13 +21,8 @@ public class WoWcamera : MonoBehaviour
     private bool isLookingUp = false;
     private bool isLookingDown = false;
 
-    [Header ("Начальные координаты по Х и У для камеры персонажа")]
-
-    [Space (10)]
-
-    [SerializeField] private float xDeg = 0.0f;
-
-    [SerializeField] public float yDeg = 0.0f;
+    private float xDeg = 0.0f;
+    public float yDeg = 0.0f;
        
     private void Start ()
     {
