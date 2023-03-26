@@ -14,13 +14,9 @@ public class Shooting : MonoBehaviour
 
     [SerializeField] private Transform _spawnPoint;
 
-    [Header ("Начальные координаты по Х и У для спавнера пуль")]
+    private float yDeg = 0.0f;
 
-    [Space (10)]
-
-    [SerializeField] public float yDeg = 0.0f;
-
-    [SerializeField] private float xDeg = 0.0f;
+    private float xDeg = -40.0f;
 
     private Vector3 pos;
 
@@ -31,8 +27,7 @@ public class Shooting : MonoBehaviour
     {
         Vector3 angles = transform.eulerAngles;
         yDeg = angles.y;
-        xDeg = angles.x;
-        pos = _spawnPoint.transform.position;
+        xDeg = angles.x + 20;
     }
 
     private void Update()

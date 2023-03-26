@@ -79,7 +79,7 @@ public class EnemyLogic : MonoBehaviour
 
         float playerDistance = Vector3.Distance(player.transform.position, gameObject.transform.position);
 
-        if(playerDistance < 8)
+        if(playerDistance < 10)
         {
             attackTimer += Time.deltaTime;
         
