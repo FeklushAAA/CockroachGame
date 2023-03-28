@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3620314491146081301}
   - component: {fileID: 401430924186164144}
   - component: {fileID: 2483414161257262970}
+  - component: {fileID: 8401108370556193945}
   m_Layer: 0
   m_Name: energetics
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8401108370556193945
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140532597136969391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8742558586856848625, guid: 589050e86db21d14d91c4c76af409426, type: 3}

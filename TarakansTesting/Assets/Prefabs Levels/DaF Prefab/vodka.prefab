@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2136165147834064344}
   - component: {fileID: 3029503591149146749}
   - component: {fileID: 1003742236525455031}
+  - component: {fileID: -79431737611800409}
   m_Layer: 0
   m_Name: vodka
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-79431737611800409
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652537727616829282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1197940916539719349, guid: f02957ea06f6f5c4490e608b169cb49e, type: 3}

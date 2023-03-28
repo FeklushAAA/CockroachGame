@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 826525461450632307}
   - component: {fileID: 4384169653931058134}
   - component: {fileID: 1959985422675957532}
+  - component: {fileID: 6269663027962900733}
   m_Layer: 0
   m_Name: CupOrange
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6269663027962900733
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14557721674446537}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4126052146868826258, guid: c1dc879152ac3c547a4385df8c7d6bc9, type: 3}
