@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3757771552312329838}
   - component: {fileID: 254896226525907403}
   - component: {fileID: 2624865816620498177}
+  - component: {fileID: 6734250399857412649}
   m_Layer: 0
   m_Name: mustard
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6734250399857412649
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4570478511442451668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8385770832123711334, guid: 88d82aeabc85bde4cbcb660b4e7228d3, type: 3}

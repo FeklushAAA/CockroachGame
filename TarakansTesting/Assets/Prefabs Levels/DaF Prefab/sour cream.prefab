@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5297270654069622086}
   - component: {fileID: 9091769302794947299}
   - component: {fileID: 6469565224255241769}
+  - component: {fileID: -7052826121874721022}
   m_Layer: 0
   m_Name: sour cream
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-7052826121874721022
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812236094908899324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3163602104712093928, guid: 518c7c3beed826f48ad20aa4075014ef, type: 3}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8481794145846857812}
   - component: {fileID: 4763323253701713905}
   - component: {fileID: 7349397451019610939}
+  - component: {fileID: 8746697843706629180}
   m_Layer: 0
   m_Name: PlateBlue
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8746697843706629180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9150947733333396206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -565635737126727674, guid: aad76716ad4bed044a66ee71c1396bd8, type: 3}
