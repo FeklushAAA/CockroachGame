@@ -44,10 +44,14 @@ public class ThirdPersonMovement : MonoBehaviour
         
     }
 
+    private void LateUpdate()
+    {
+        Rotate();
+    }
+
     private void FixedUpdate()
     {
         Movement();
-        Rotate();
         InAir();
     }
 

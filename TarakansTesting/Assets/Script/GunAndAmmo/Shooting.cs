@@ -14,21 +14,8 @@ public class Shooting : MonoBehaviour
 
     [SerializeField] private Transform _spawnPoint;
 
-    private float yDeg = 0.0f;
-
-    private float xDeg = -40.0f;
-
-    private Vector3 pos;
-
-
-    private Quaternion _look; //Переменная для записи поворота персонажа
+    [SerializeField] private Camera cam;
     
-    private void Start()
-    {
-        Vector3 angles = transform.eulerAngles;
-        yDeg = angles.y;
-        xDeg = angles.x + 20;
-    }
 
     private void Update()
     {
@@ -39,10 +26,10 @@ public class Shooting : MonoBehaviour
             projectileInstance.AddForce(_spawnPoint.forward * _shooting.AmmoForce);
             Debug.Log("Игрок выстрелил");
         }
-
-        xDeg += Input.GetAxis("Mouse X") * _camCharacteristics.xSpeed * 0.02f;
-        yDeg = Mathf.Clamp(yDeg, -50, 70); // ограничиваем угол возвышения камеры        
-        yDeg -= Input.GetAxis("Mouse Y") * _camCharacteristics.ySpeed * 0.02f;   
-        _spawnPoint.transform.rotation = Quaternion.Euler(yDeg, xDeg, 0);
+    
+        Vector3 aimSpot = cam.transform.position;
+        //You will want to play around with the 50 to make it feel accurate.
+        aimSpot += cam.transform.forward * 50.0f;
+        transform.LookAt(aimSpot);
     }
 }

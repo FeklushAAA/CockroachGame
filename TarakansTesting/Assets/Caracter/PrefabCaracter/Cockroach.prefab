@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 558352094888314344}
   - component: {fileID: 5863553197826908050}
   - component: {fileID: 14939307749838278}
-  - component: {fileID: 14939307749838283}
+  - component: {fileID: 6686893865414421728}
   m_Layer: 0
   m_Name: Cockroach
   m_TagString: Untagged
@@ -366,7 +366,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5863553197826908050
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -383,7 +383,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!143 &14939307749838278
 CharacterController:
   m_ObjectHideFlags: 0
@@ -402,7 +403,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &14939307749838283
+--- !u!114 &6686893865414421728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -411,11 +412,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 933506164889067346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c55cf2584136f4469ac5cf9b1a48e99, type: 3}
+  m_Script: {fileID: 11500000, guid: e97d81263e15b764182c03e5eaca0a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 0}
-  _characteristics: {fileID: 11400000, guid: 6add24ee9ca1d60498563da2a989a96f, type: 2}
+  _characteristics: {fileID: 0}
   _camCharacteristics: {fileID: 0}
 --- !u!1 &974666848463172908
 GameObject:
