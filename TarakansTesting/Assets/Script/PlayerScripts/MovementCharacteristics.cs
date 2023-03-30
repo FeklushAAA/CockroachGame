@@ -14,6 +14,8 @@ public class MovementCharacteristics : ScriptableObject
 
     [SerializeField] private float _jumpForce = 7f;
 
+    [SerializeField] private float _jumpDistance = 5f;
+
 
     public bool VisibleCursor => _visibleCursor;
 
@@ -24,4 +26,6 @@ public class MovementCharacteristics : ScriptableObject
     public float Gravity => _gravity;
 
     public float JumpForce => _jumpForce;
+
+    public float JumpDistance => _jumpDistance;
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -242,6 +242,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 03b4c999344ac5a4d9865c6890a8c78f, type: 3}
       propertyPath: m_Name
       value: MenuCockroach
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 03b4c999344ac5a4d9865c6890a8c78f, type: 3}
+      propertyPath: m_TagString
+      value: MenuPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 2960217326367377959, guid: 03b4c999344ac5a4d9865c6890a8c78f, type: 3}
       propertyPath: m_IsActive
@@ -710,6 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69e487d67735e4c46bd27d3a2e002365, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuPlayer: {fileID: 1833776681}
 --- !u!1 &658275792
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +726,7 @@ GameObject:
   - component: {fileID: 658275794}
   - component: {fileID: 658275793}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: Directional Light1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1469,7 +1474,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 625339473}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1717,6 +1722,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798072480}
   m_CullTransparentMesh: 1
+--- !u!1 &1833776681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 03b4c999344ac5a4d9865c6890a8c78f, type: 3}
+  m_PrefabInstance: {fileID: 163661834}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1908195460 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 114073136797984770, guid: 6875cb2d7d1865246896b306d912c588, type: 3}

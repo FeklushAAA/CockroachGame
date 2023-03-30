@@ -82,8 +82,6 @@ public class ThirdPersonMovement : MonoBehaviour
             PlayAnimation();
             Jump();
         }
-
-        
         _direction.y -= _characteristics.Gravity * Time.deltaTime;//Отнимаем значение гравитации для притягивания персонажа к игровой поверхности
         Vector3 dir = _direction * _characteristics.MovementSpeed * Time.deltaTime; //Умножаем наше направление на стандартную скорость передвижения
 
@@ -113,6 +111,7 @@ public class ThirdPersonMovement : MonoBehaviour
                 _direction.y += _characteristics.JumpForce;
             }
         }
+        _direction.y -= _characteristics.Gravity * Time.deltaTime;
         
     }
 
