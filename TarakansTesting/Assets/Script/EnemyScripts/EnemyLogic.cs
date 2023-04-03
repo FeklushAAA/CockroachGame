@@ -15,9 +15,6 @@ public class EnemyLogic : MonoBehaviour
 
     [SerializeField] private Transform _enemySpawnPoint;
 
-
-
-
     [Header ("Изменение параметров врага")]
 
     [Space (10)]
