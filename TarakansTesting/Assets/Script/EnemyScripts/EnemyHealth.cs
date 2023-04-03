@@ -10,6 +10,8 @@ public class EnemyHealth : MonoBehaviour
 
     [SerializeField] private int startingHealth = 100;
 
+    [SerializeField] private GameObject ragdoll;
+
     private int currentHealth;
 
     private CapsuleCollider capsuleCollider;
@@ -42,7 +44,9 @@ public class EnemyHealth : MonoBehaviour
     {
         isDead = true;
         capsuleCollider.isTrigger = true;
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        ragdoll.SetActive(true);
+        Instantiate(ragdoll, transform.position, transform.rotation);
         Debug.Log("EnemyUmer");
     }
 }
