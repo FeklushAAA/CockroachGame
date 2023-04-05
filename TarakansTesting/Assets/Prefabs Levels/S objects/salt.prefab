@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4471805860773362198}
   - component: {fileID: 693783219776583091}
   - component: {fileID: 3333832919444095353}
+  - component: {fileID: -7018222720068102375}
   m_Layer: 0
   m_Name: salt
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-7018222720068102375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838433645288726700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.03, z: 0.0069999993}
+  m_Center: {x: 0, y: 0.015, z: -0.0005000001}

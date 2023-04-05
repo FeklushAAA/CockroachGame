@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5065074565755396557}
   - component: {fileID: 8206994406125366888}
   - component: {fileID: 6197496967034608290}
-  - component: {fileID: 3728481250404686629}
+  - component: {fileID: -1169604605282056364}
   m_Layer: 0
   m_Name: ventilation blue
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3728481250404686629
-MeshCollider:
+--- !u!65 &-1169604605282056364
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +94,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5801469964747566210, guid: fbf005756e84f99468f4550a6eb86492, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.018460996, y: 0.022830216, z: 0.0012578144}
+  m_Center: {x: -0.00876989, y: 0.24999079, z: 0.0015293737}

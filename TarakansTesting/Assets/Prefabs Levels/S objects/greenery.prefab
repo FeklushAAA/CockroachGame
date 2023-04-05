@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8836018759575735452}
   - component: {fileID: 5561949570213872441}
   - component: {fileID: 7698046921246308339}
+  - component: {fileID: 2206884198513925537}
   m_Layer: 0
   m_Name: greenery
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2206884198513925537
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8202190251947677222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.012981629, y: 0.04362401, z: 0.013078945}
+  m_Center: {x: -0.0019042911, y: 0.021812005, z: -0.0019529506}

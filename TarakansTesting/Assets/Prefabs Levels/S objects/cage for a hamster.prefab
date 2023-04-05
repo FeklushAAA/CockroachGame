@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3471079423017888032}
   - component: {fileID: 541588424523064965}
   - component: {fileID: 2333124661077463631}
+  - component: {fileID: 332329518512808166}
   m_Layer: 0
   m_Name: cage for a hamster
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &332329518512808166
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4278438288954913690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10060876, y: 0.06572175, z: 0.10090208}
+  m_Center: {x: -0.0002005957, y: 0.032914862, z: -0.00015888736}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1307620805203643964}
   - component: {fileID: 2705046703066431897}
   - component: {fileID: 175278564924274003}
-  - component: {fileID: 771168387383739392}
+  - component: {fileID: -6438173759555951373}
   m_Layer: 0
   m_Name: tile apron OB
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &771168387383739392
-MeshCollider:
+--- !u!65 &-6438173759555951373
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +94,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8516707866511863838, guid: 570a4f96fc498064a9fdc72eae3df0f5, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.25265115, y: 0.12811027, z: 0.0028402496}
+  m_Center: {x: -0.022610284, y: 0.13356341, z: 0.001487689}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2972514886410561720}
   - component: {fileID: 2229181893134313245}
   - component: {fileID: 4110469618153296855}
+  - component: {fileID: -6914468466215063309}
   m_Layer: 0
   m_Name: onion
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-6914468466215063309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2453245903968907778}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019822603, y: 0.019141762, z: 0.019822601}
+  m_Center: {x: 0, y: 0.009688075, z: -9.313226e-10}
