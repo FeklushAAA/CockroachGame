@@ -13,10 +13,13 @@ public class LoadingUI : MonoBehaviour
     {
         if(gameObject.activeSelf)
         {
-            LoadingLogic(1.5f);
-            Debug.Log("ЗАРАБОТАЛО");
-            OnButtonPressed();
+            StartCoroutine(LoadingLogic(2.5f));
         }
+    }
+
+    private void Update()
+    {
+        NextLevelButton();
     }
 
     IEnumerator LoadingLogic(float timer)
@@ -28,7 +31,7 @@ public class LoadingUI : MonoBehaviour
         pressAnyKey.SetActive(true);
     }
 
-    private void OnButtonPressed()
+    private void NextLevelButton()
     {
         if(pressAnyKey.activeSelf)
         {
@@ -37,6 +40,5 @@ public class LoadingUI : MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
-        
     }
 }
