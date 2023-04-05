@@ -472,6 +472,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000007510225
+      objectReference: {fileID: 0}
     - target: {fileID: 7177868055661646219, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
       propertyPath: m_Name
       value: Wall orange (3)
@@ -948,7 +960,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &783968292
 PrefabInstance:
@@ -957,6 +969,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000002026597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67.00001
+      objectReference: {fileID: 0}
     - target: {fileID: 7177868055661646219, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
       propertyPath: m_Name
       value: Wall orange
@@ -1488,7 +1516,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1163531763
 PrefabInstance:
@@ -1839,6 +1867,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000002026597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67
+      objectReference: {fileID: 0}
     - target: {fileID: 7177868055661646219, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
       propertyPath: m_Name
       value: Wall orange (2)
@@ -1953,6 +1997,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 59.999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000002026597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67
+      objectReference: {fileID: 0}
     - target: {fileID: 7177868055661646219, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
       propertyPath: m_Name
       value: Wall orange (5)
@@ -2295,6 +2355,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -118.9
+      objectReference: {fileID: 0}
     - target: {fileID: 7177868055661646219, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
       propertyPath: m_Name
       value: Wall orange (1)
@@ -2352,6 +2420,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000019073486
+      objectReference: {fileID: 0}
+    - target: {fileID: 2034913590766350575, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000075102253
+      objectReference: {fileID: 0}
     - target: {fileID: 7177868055661646219, guid: b7aab6c0db7f4ec4a989b244175f7e77, type: 3}
       propertyPath: m_Name
       value: Wall orange (4)
