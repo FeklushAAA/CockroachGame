@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4590709825554044656}
   - component: {fileID: 583957045498370389}
   - component: {fileID: 3458296805556792735}
-  - component: {fileID: 1075823088300089825}
+  - component: {fileID: -9010630635301825584}
   m_Layer: 0
   m_Name: ventilation green
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1075823088300089825
-MeshCollider:
+--- !u!65 &-9010630635301825584
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +94,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 724892254627188342, guid: a0e87e5721a91684aa7bd847459ed900, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.04696799, y: 0.06433987, z: 0.0035044737}
+  m_Center: {x: -0.0088283615, y: 0.24680267, z: 0.001629713}

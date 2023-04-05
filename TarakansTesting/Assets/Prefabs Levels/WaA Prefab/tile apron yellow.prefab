@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2450150283988848004}
   - component: {fileID: 1562596405773943329}
   - component: {fileID: 3624133738526783211}
-  - component: {fileID: -3991543130772288395}
+  - component: {fileID: 6529684520850784940}
   m_Layer: 0
   m_Name: tile apron yellow
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-3991543130772288395
-MeshCollider:
+--- !u!65 &6529684520850784940
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +94,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 168134831931443424, guid: a5680100d14ca0e4fa942281de899c05, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.25265115, y: 0.12811027, z: 0.0026354673}
+  m_Center: {x: -0.022610284, y: 0.13356341, z: 0.0013852979}

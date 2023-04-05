@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4489735201126713717}
   - component: {fileID: 711962323081135824}
   - component: {fileID: 3316218037226861082}
+  - component: {fileID: -1094593724047666669}
   m_Layer: 0
   m_Name: light switch
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-1094593724047666669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820581682084959183}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.02, z: 0.0152199995}
+  m_Center: {x: 0, y: 0.01, z: 0.0013640001}
