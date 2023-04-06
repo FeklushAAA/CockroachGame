@@ -324,8 +324,6 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Menu/UIScripts/LoadingUI.cs"
-"Assets/Menu/UIScripts/MainMenu.cs"
 "Assets/Scenes/Level3Scripts/FloorIsLava.cs"
 "Assets/Script/EnemyScripts/EnemyHealth.cs"
 "Assets/Script/EnemyScripts/EnemyLogic.cs"
@@ -337,6 +335,9 @@
 "Assets/Script/PlayerScripts/PlayerHealth.cs"
 "Assets/Script/PlayerScripts/ThirdPersonMovement.cs"
 "Assets/Script/PlayerScripts/WoWcamera.cs"
+"Assets/UI/Menu/UIScripts/LoadingUI.cs"
+"Assets/UI/Menu/UIScripts/MainMenu.cs"
+"Assets/UI/PlayerUI/HealthBar.cs"
 -langversion:9.0
 
 /deterministic

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -12,7 +13,11 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] private GameObject ragdoll;
 
-    private int currentHealth;
+    [SerializeField] private Image bar;
+
+    private float fill = 1f;
+
+    private float currentHealth;
 
     private CapsuleCollider capsuleCollider;
 
@@ -25,7 +30,13 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = startingHealth;
     }
 
-    public void TakeDamage(int amount)
+    private void Update()
+    {
+        bar.fillAmount = fill;
+        fill = currentHealth / 100;
+    }
+
+    public void TakeDamage(float amount)
     {
         if(isDead)
         {
@@ -42,6 +53,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Death()
     {
+        bar.fillAmount = 0.0f;
         isDead = true;
         capsuleCollider.isTrigger = true;
         Debug.Log("Игрок умер");
