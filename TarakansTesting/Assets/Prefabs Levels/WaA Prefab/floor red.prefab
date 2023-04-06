@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2407644195341469630}
   - component: {fileID: 1641122495594694683}
   - component: {fileID: 3540541237079833809}
-  - component: {fileID: -827451188253321198}
+  - component: {fileID: 1582570837405996892}
+  - component: {fileID: 3486338657261346217}
   m_Layer: 0
   m_Name: floor red
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3036124403867606276}
-  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
@@ -84,8 +85,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-827451188253321198
-MeshCollider:
+--- !u!114 &1582570837405996892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3036124403867606276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42976226866decc42a7c93076e7fb601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3486338657261346217
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -94,7 +107,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4851922050619261422, guid: f1f5cf8395260164086887d14ca649e0, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.59999996, y: 0.00000012397923, z: 0.59999996}
+  m_Center: {x: -0.29999998, y: 0.000000013113416, z: 0.29999998}
