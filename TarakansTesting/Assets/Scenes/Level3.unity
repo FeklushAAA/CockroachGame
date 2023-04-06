@@ -2051,6 +2051,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 212153511}
+    - target: {fileID: 543450652674609119, guid: 944e8aab4757af247bbe8ad8a1473c9c, type: 3}
+      propertyPath: bar
+      value: 
+      objectReference: {fileID: 1840324596}
     - target: {fileID: 558352094888314344, guid: 944e8aab4757af247bbe8ad8a1473c9c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2300,6 +2304,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+--- !u!114 &1840324596 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1870569206, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+  m_PrefabInstance: {fileID: 1799510452}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1958095618
 PrefabInstance:
   m_ObjectHideFlags: 0
