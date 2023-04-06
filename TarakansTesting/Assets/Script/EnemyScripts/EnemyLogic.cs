@@ -56,7 +56,6 @@ public class EnemyLogic : MonoBehaviour
     {
         if(AI_enemy == AI_state.Patrol)
         {
-            AI_agent.Resume();
             animator.SetBool("move", true);
             AI_agent.SetDestination(WayPoints[currentPoint].transform.position);
             float pointDistance = Vector3.Distance(WayPoints[currentPoint].transform.position, gameObject.transform.position);
@@ -71,12 +70,11 @@ public class EnemyLogic : MonoBehaviour
         if(AI_enemy == AI_state.Stay)
         {
             animator.SetBool("move", false);
-            AI_agent.Stop();
         }
 
         float playerDistance = Vector3.Distance(player.transform.position, gameObject.transform.position);
 
-        if(playerDistance < 10)
+        if(playerDistance < 30)
         {
             attackTimer += Time.deltaTime;
         
@@ -98,6 +96,5 @@ public class EnemyLogic : MonoBehaviour
 
         Rigidbody projectileInstance = Instantiate(_enemyAmmo, _enemySpawnPoint.position, _enemySpawnPoint.rotation);
         projectileInstance.velocity = projectileInstance.transform.forward * _shooting.AmmoSpeed;
-        playerHealth.TakeDamage(attackDamage);
     }
 }
