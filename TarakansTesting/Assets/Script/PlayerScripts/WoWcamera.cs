@@ -1,4 +1,4 @@
-
+using UnityEngine.UI;
 using UnityEngine;
 using System.Collections;
 
@@ -30,6 +30,14 @@ public class WoWcamera : MonoBehaviour
 	[SerializeField] private Smooth smooth = Smooth.Enabled;
 	[SerializeField] private float speed = 8; // скорость сглаживания
 
+    [Header ("UI элементы в камере")]
+
+    [Space(10)]
+
+    [SerializeField] private GameObject playerUI;
+
+    [SerializeField] private GameObject questsList;
+
     // private float desiredDistance;
     // private float correctedDistance;
 
@@ -47,6 +55,20 @@ public class WoWcamera : MonoBehaviour
         
         if (GetComponent<Rigidbody>())
             GetComponent<Rigidbody>().freezeRotation = true; // Блокируем поворот у компонента Rigidbody
+    }
+
+    private void Update()
+    {
+        OnTabEnter();
+    }
+
+    private void OnTabEnter()
+    {
+        if(Input.GetKeyDown(KeyCode.Tab))
+        {
+            playerUI.SetActive(!playerUI.activeSelf);
+            questsList.SetActive(!questsList.activeSelf);
+        }
     }
 
     Vector3 PositionCorrection(Vector3 Qtarget, Vector3 position)
