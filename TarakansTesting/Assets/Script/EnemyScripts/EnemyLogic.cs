@@ -15,15 +15,13 @@ public class EnemyLogic : MonoBehaviour
 
     [SerializeField] private Transform _enemySpawnPoint;
 
-    [Header ("Изменение параметров врага")]
+    // [Header ("Изменение параметров врага")]
 
-    [Space (10)]
+    // [Space (10)]
 
     // [SerializeField] private float moveSpeed = 3f;
 
-    // [SerializeField] private float attackRange = 1f;
-
-    [SerializeField] private int attackDamage = 10;
+    // [SerializeField] private float attackRange = 30f;
 
     private Transform player;
     private PlayerHealth playerHealth;
