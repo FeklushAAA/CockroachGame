@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] private int startingHealth = 100;
 
+    [SerializeField] private GameObject ragdoll;
+
     private int currentHealth;
 
     private CapsuleCollider capsuleCollider;
@@ -43,5 +45,8 @@ public class PlayerHealth : MonoBehaviour
         isDead = true;
         capsuleCollider.isTrigger = true;
         Debug.Log("Игрок умер");
+        gameObject.SetActive(false);
+        ragdoll.SetActive(true);
+        Instantiate(ragdoll, transform.position, transform.rotation);
     }
 }
