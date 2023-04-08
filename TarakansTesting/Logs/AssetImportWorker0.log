@@ -15,7 +15,7 @@ E:/GidFuck/CockroachGame/TarakansTesting
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55768
+55874
 Successfully changed project path to: E:/GidFuck/CockroachGame/TarakansTesting
 E:/GidFuck/CockroachGame/TarakansTesting
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/GidFuck/CockroachGame/TarakansTesting
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20252] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 3401227626 [EditorId] 3401227626 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2008] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2745279394 [EditorId] 2745279394 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20252] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 3401227626 [EditorId] 3401227626 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2008] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2745279394 [EditorId] 2745279394 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 66.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005959 seconds.
+Registered in 0.006927 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.500 seconds
 Domain Reload Profiling:
-	ReloadAssembly (501ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (500ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (350ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (77ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (211ms)
+			SetupLoadedEditorAssemblies (210ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (100ms)
 				ProcessInitializeOnLoadMethodAttributes (36ms)
@@ -107,37 +107,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002855 seconds.
+Registered in 0.003180 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\GidFuck\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\GidFuck\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
+- Completed reload, in  0.784 seconds
 Domain Reload Profiling:
-	ReloadAssembly (767ms)
+	ReloadAssembly (785ms)
 		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (583ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (604ms)
 			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (201ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (268ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (269ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadAttributes (176ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3537.
 Memory consumption went from 111.2 MB to 111.1 MB.
-Total: 2.360300 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.020000 ms  DeleteObjects: 0.092600 ms)
+Total: 2.646500 ms (FindLiveObjects: 0.205200 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.267500 ms  DeleteObjects: 0.085600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,361 +166,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1997279.809897 seconds.
-  path: Assets/Weapons/Corsairs/Corsairs.blend
-  artifactKey: Guid(a6c37b0a81e665e4db89eaeb388efbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs/Corsairs.blend using Guid(a6c37b0a81e665e4db89eaeb388efbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d0900ccc3a4bcdc6f7bacb6acb6e12') in 0.103249 seconds 
+  Time since last request: 1997549.905948 seconds.
+  path: Assets/Caracter/PlayerCharacteristics.asset
+  artifactKey: Guid(6add24ee9ca1d60498563da2a989a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/PlayerCharacteristics.asset using Guid(6add24ee9ca1d60498563da2a989a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce62b897c90d7cb9cf0f41b292d64bb') in 0.028349 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Weapons/Corsairs
-  artifactKey: Guid(44b08875e520c1f459ca2d46c155ef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs using Guid(44b08875e520c1f459ca2d46c155ef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f295d9ccac6a3d78c847122c89db9e0') in 0.001109 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Caracter/ShootingCharacteristics.asset
+  artifactKey: Guid(1876ccae88e37b74491360521177dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/ShootingCharacteristics.asset using Guid(1876ccae88e37b74491360521177dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759f0565459210e8e75b17e00571ec5f') in 0.005765 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Weapons/Corsairs/Corsairs.fbx
-  artifactKey: Guid(a9368bcae9f2e594395c91a15cf10b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs/Corsairs.fbx using Guid(a9368bcae9f2e594395c91a15cf10b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea89d2a8967d0559f0ac346ca17d95a') in 0.011174 seconds 
+  Time since last request: 6.210545 seconds.
+  path: Assets/Caracter/ModelCockroach/CockroachRigWeight.fbx
+  artifactKey: Guid(fe641d68f21097a4ba8ee8ba94fc88a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/ModelCockroach/CockroachRigWeight.fbx using Guid(fe641d68f21097a4ba8ee8ba94fc88a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbdc1fc57c9a3476df7afae8629cfd7') in 0.122234 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.676626 seconds.
-  path: Assets/Weapons/Corsairs/Textures Corsairs
-  artifactKey: Guid(36bc058c99c613943950296bdc7b3b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs/Textures Corsairs using Guid(36bc058c99c613943950296bdc7b3b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85653a6274d85df45baf4cee49ffb179') in 0.001443 seconds 
+  Time since last request: 37.240432 seconds.
+  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан
+  artifactKey: Guid(50bb4636906796e45b74c2967d72a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан using Guid(50bb4636906796e45b74c2967d72a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1723bc1383a9aab067103df9f22ccaf6') in 0.006147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.094132 seconds.
-  path: Assets/Weapons/Corsairs/Textures Corsairs/Corsairs_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(41436d877def0264392780a2f139034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs/Textures Corsairs/Corsairs_DefaultMaterial_BaseMap.jpg using Guid(41436d877def0264392780a2f139034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9823c1d6c5fe472a7dc663828e139760') in 0.015729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/Corsairs/Textures Corsairs/Corsairs_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(e32a8a19064663945bb0040f0fefcd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs/Textures Corsairs/Corsairs_DefaultMaterial_Normal.jpg using Guid(e32a8a19064663945bb0040f0fefcd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825542371647d68e588a3151a729e9f8') in 0.011862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Weapons/Corsairs/Textures Corsairs/Corsairs_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(1b05c3d6f4649f8438c437ccacfc4b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs/Textures Corsairs/Corsairs_DefaultMaterial_MaskMap.jpg using Guid(1b05c3d6f4649f8438c437ccacfc4b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e41b010e10fe12e76c9f903babb6ae') in 0.014707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.690010 seconds.
-  path: Assets/Weapons/Corsairs/Textures Corsairs/Textures Corsairs.spp
-  artifactKey: Guid(2de751a1d321aff4cb111c19a45f8167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Corsairs/Textures Corsairs/Textures Corsairs.spp using Guid(2de751a1d321aff4cb111c19a45f8167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff4a8cb1cab72cd6ef39a1426fed44a') in 0.003355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.212126 seconds.
-  path: Assets/Weapons/Dubl Shotgun
-  artifactKey: Guid(8056dba46e80c4e43a01bb872666bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun using Guid(8056dba46e80c4e43a01bb872666bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19284dbb205945c798a8a5ae1e70322f') in 0.005742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.056769 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Dubl Shotgun.blend
-  artifactKey: Guid(6135dcd11f79c184c8c885c143d424e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Dubl Shotgun.blend using Guid(6135dcd11f79c184c8c885c143d424e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d605db59ecab78fa7d54f22fc2d06b9') in 0.006582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Dubl Shotgun.fbx
-  artifactKey: Guid(023a5c2e9573e924eaf6dbbdfb50994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Dubl Shotgun.fbx using Guid(023a5c2e9573e924eaf6dbbdfb50994b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aa16f29023ad26684dae5a4da6eed5') in 0.007682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.583884 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun
-  artifactKey: Guid(978cb50a2a62e9649b7a62cda5887a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun using Guid(978cb50a2a62e9649b7a62cda5887a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515e25e29fc65dbf5ea113c4b02437e4') in 0.001519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.074917 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(485104e400d5029438ebb84eb28c832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_BaseMap.jpg using Guid(485104e400d5029438ebb84eb28c832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adb8b2707a429ccc9c242ef2f537ec9') in 0.010179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_Emissive.jpg
-  artifactKey: Guid(96cb7b95039b1f94294c7c67b0f967ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_Emissive.jpg using Guid(96cb7b95039b1f94294c7c67b0f967ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e04ee6d945c08a6dfb0e7e64fcd31e') in 0.008984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(c721d3eaf6e3ee6428dcc25dd6dcd999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_Normal.jpg using Guid(c721d3eaf6e3ee6428dcc25dd6dcd999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e6843f79a7820660bfbfc73783489e') in 0.012084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(a7b5ab308375e72408f4f82aff555a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Dubl Shotgun_DefaultMaterial_MaskMap.jpg using Guid(a7b5ab308375e72408f4f82aff555a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c48ce7720d6c2daec198e62f62a6c09') in 0.012484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.794261 seconds.
-  path: Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Textures Dubl Shotgun.spp
-  artifactKey: Guid(3edd1299d4ce2794180074be157954b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Dubl Shotgun/Textures Dubl Shotgun/Textures Dubl Shotgun.spp using Guid(3edd1299d4ce2794180074be157954b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bf290703cb63faaae19c8f5aac2bad') in 0.001992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.113865 seconds.
-  path: Assets/Weapons/electro gun
-  artifactKey: Guid(7d3040abc460a2c43907992394908496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun using Guid(7d3040abc460a2c43907992394908496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c5b0fdae7428fd9a6a6e39aa940977') in 0.005958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053108 seconds.
-  path: Assets/Weapons/electro gun/electro gun.blend
-  artifactKey: Guid(ee658078ed88abd47806378e3e1a8d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/electro gun.blend using Guid(ee658078ed88abd47806378e3e1a8d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502f0915127a06b09ac2db2add05072b') in 0.011285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/electro gun/electro gun.fbx
-  artifactKey: Guid(d7b2a7d5229e38e4d9516037a15a3c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/electro gun.fbx using Guid(d7b2a7d5229e38e4d9516037a15a3c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569b16609de87f9cda0841dbc959ec81') in 0.029536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.208433 seconds.
-  path: Assets/Weapons/electro gun/Textures electro gun
-  artifactKey: Guid(67e4684d04889454aa15cfc315584ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/Textures electro gun using Guid(67e4684d04889454aa15cfc315584ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a69d896053f493a9960ebee715efab') in 0.001479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.069565 seconds.
-  path: Assets/Weapons/electro gun/Textures electro gun/electro gun_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(5d0118502d5d40347b7d46c66eb87bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/Textures electro gun/electro gun_DefaultMaterial_BaseMap.jpg using Guid(5d0118502d5d40347b7d46c66eb87bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0f6ddb7d1ddc09c913199e6743523d') in 0.014993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Weapons/electro gun/Textures electro gun/electro gun_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(b21629e619725ad40a5b330f6bbc8fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/Textures electro gun/electro gun_DefaultMaterial_Normal.jpg using Guid(b21629e619725ad40a5b330f6bbc8fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c588f5b7a5200bbbd6b5b98508010cc3') in 0.016220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Weapons/electro gun/Textures electro gun/electro gun_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(ae57efd4c072c444887d56c6e6202259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/Textures electro gun/electro gun_DefaultMaterial_MaskMap.jpg using Guid(ae57efd4c072c444887d56c6e6202259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89aeeea013f53aa000ea005fed717dd0') in 0.022843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.969524 seconds.
-  path: Assets/Weapons/electro gun/Textures electro gun/Textures electro gun.spp
-  artifactKey: Guid(7cec1359638404947b66bde1d13d0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/Textures electro gun/Textures electro gun.spp using Guid(7cec1359638404947b66bde1d13d0062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb9c2196089e99f474b7ce1d3123ffa') in 0.001758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.369159 seconds.
-  path: Assets/Weapons/electro gun/Textures electro gun/Textures electro gun_autosave_0.spp
-  artifactKey: Guid(e4c2e1ad4406e094e98b97eb1d295b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/electro gun/Textures electro gun/Textures electro gun_autosave_0.spp using Guid(e4c2e1ad4406e094e98b97eb1d295b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c2ca543233d562eb12a0fdaa04497') in 0.001677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.171134 seconds.
-  path: Assets/Weapons/Laser gun
-  artifactKey: Guid(4a9ac02295b63f845812e73ecf6ba68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun using Guid(4a9ac02295b63f845812e73ecf6ba68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8da7d2dc785d32f023a7d21634d7d9') in 0.005212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061781 seconds.
-  path: Assets/Weapons/Laser gun/Laser gun.blend
-  artifactKey: Guid(5f9412f9b2217ba4b840ac8b701f18d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Laser gun.blend using Guid(5f9412f9b2217ba4b840ac8b701f18d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210555d2e7eff3e6a9452cf33c104105') in 0.009889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Weapons/Laser gun/Laser gun.fbx
-  artifactKey: Guid(ff24b931a64496342a28ee631bb7c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Laser gun.fbx using Guid(ff24b931a64496342a28ee631bb7c1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f9de85f5361253a5bc4f5ede87198a') in 0.011247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.579013 seconds.
-  path: Assets/Weapons/Laser gun/Textures Laser gun
-  artifactKey: Guid(cbb056b8df7953f4cb748b6a7a975ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Textures Laser gun using Guid(cbb056b8df7953f4cb748b6a7a975ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5effb008369adb266e877569799f5723') in 0.005973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059583 seconds.
-  path: Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(18c0c791aa468264eaf41ee0ddecebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_BaseMap.jpg using Guid(18c0c791aa468264eaf41ee0ddecebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae13c489f2069e3c4e2cfc77d481cf2') in 0.011964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(b672ca5975bc802449f3310b557397b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_Normal.jpg using Guid(b672ca5975bc802449f3310b557397b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77450c0a69f17598dcd52dd959373afe') in 0.010445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(a8a598057287ded4cb996b7e6947f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_MaskMap.jpg using Guid(a8a598057287ded4cb996b7e6947f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0013002c9a7ae86bf5c008840f7d300c') in 0.008530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_Emissive.jpg
-  artifactKey: Guid(fa5e21f664ede6d44a3ff1cb1f5e609e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Textures Laser gun/Laser gun_DefaultMaterial_Emissive.jpg using Guid(fa5e21f664ede6d44a3ff1cb1f5e609e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808194c6fb4ef430e64dde2ce19274eb') in 0.008119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.948250 seconds.
-  path: Assets/Weapons/Laser gun/Textures Laser gun/Textures Laser gun.spp
-  artifactKey: Guid(23bb2bed0997f5f4e8eaa4f1b88f35fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Laser gun/Textures Laser gun/Textures Laser gun.spp using Guid(23bb2bed0997f5f4e8eaa4f1b88f35fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cea7994f228bf1cc1c48a81dcc8d34') in 0.001682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.435280 seconds.
-  path: Assets/Weapons/lego gun/lego gun.blend
-  artifactKey: Guid(0cb6588291b86c344b7cfe371cd36609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/lego gun.blend using Guid(0cb6588291b86c344b7cfe371cd36609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8c38d71e6c02ae04d0f00a83846baa') in 0.012431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Weapons/lego gun/lego gun.fbx
-  artifactKey: Guid(96caf3c36af8d054b8e2139b269f6569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/lego gun.fbx using Guid(96caf3c36af8d054b8e2139b269f6569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2377b9a4f0a6eb1bdc8b19da629cb5b') in 0.015295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.990424 seconds.
-  path: Assets/Weapons/lego gun/lego gun.blend1
-  artifactKey: Guid(5e67e0e685800e44c9d993509233b190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/lego gun.blend1 using Guid(5e67e0e685800e44c9d993509233b190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933ed9c450a0055dcd8f886a1c71cb8c') in 0.003469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.702490 seconds.
-  path: Assets/Weapons/lego gun/Textures lego gun
-  artifactKey: Guid(46da1642dcd239540a93e50e8a7ef784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/Textures lego gun using Guid(46da1642dcd239540a93e50e8a7ef784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ad5077356c43573342d04cfb2e7eea') in 0.006560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061273 seconds.
-  path: Assets/Weapons/lego gun/Textures lego gun/lego gun_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(5674e69f199d45e43bd9033c12d895fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/Textures lego gun/lego gun_DefaultMaterial_BaseMap.jpg using Guid(5674e69f199d45e43bd9033c12d895fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe130646a8ec9aebca970608cc29dcf') in 0.022448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/lego gun/Textures lego gun/lego gun_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(9148c96590eeb974dbf832d88d4aa9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/Textures lego gun/lego gun_DefaultMaterial_MaskMap.jpg using Guid(9148c96590eeb974dbf832d88d4aa9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0468d2b54ebb65b521cb78e6a3676bd4') in 0.011315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Weapons/lego gun/Textures lego gun/lego gun_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(8435b675993b8a9418950c4e662abd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/Textures lego gun/lego gun_DefaultMaterial_Normal.jpg using Guid(8435b675993b8a9418950c4e662abd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af9547955f754c22f7f68f63bf8500') in 0.020432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.642803 seconds.
-  path: Assets/Weapons/lego gun/Textures lego gun/Textures lego gun.spp
-  artifactKey: Guid(c60975689ef006e4bae0599222b1ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/lego gun/Textures lego gun/Textures lego gun.spp using Guid(c60975689ef006e4bae0599222b1ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac962866096ce5b12e9ef6daae7cb0a2') in 0.001962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.728551 seconds.
-  path: Assets/Weapons/Perotechnik/Perotechnik.blend
-  artifactKey: Guid(1ffc0df88cca2354f8975d6c7fd35c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Perotechnik.blend using Guid(1ffc0df88cca2354f8975d6c7fd35c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aa3c517e8818972027688365dfc9a5') in 0.018256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Weapons/Perotechnik/Perotechnik.fbx
-  artifactKey: Guid(bd9d3011197227343a286306fb56aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Perotechnik.fbx using Guid(bd9d3011197227343a286306fb56aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b931ecc11f6de9d451e8f5a5ff76607') in 0.026880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.868283 seconds.
-  path: Assets/Weapons/Perotechnik/Textures Perotechnik
-  artifactKey: Guid(1bda55bec961bdb498242bec518dd44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Textures Perotechnik using Guid(1bda55bec961bdb498242bec518dd44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11ea6b8a312b1cde4ecc90af0d99911') in 0.005113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.071175 seconds.
-  path: Assets/Weapons/Perotechnik/Textures Perotechnik/850d034831cffd78fbf87aa4afe9f91f6cd22749.jpeg
-  artifactKey: Guid(0e363f9d1819ca143bb16cfd7956c976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Textures Perotechnik/850d034831cffd78fbf87aa4afe9f91f6cd22749.jpeg using Guid(0e363f9d1819ca143bb16cfd7956c976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95331a0ad0d8415e76bd59657cef92b') in 0.014364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Weapons/Perotechnik/Textures Perotechnik/Perotechnik_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(a28119cd78d87c842b1f61952d16c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Textures Perotechnik/Perotechnik_DefaultMaterial_MaskMap.jpg using Guid(a28119cd78d87c842b1f61952d16c796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee224e31156920d10b8099dd5a87d1a6') in 0.011345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Weapons/Perotechnik/Textures Perotechnik/Perotechnik_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(98b703330b1ad3d44bac844dd6209954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Textures Perotechnik/Perotechnik_DefaultMaterial_BaseMap.jpg using Guid(98b703330b1ad3d44bac844dd6209954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200af80238e253e48e1f6a9edfafbf26') in 0.016421 seconds 
+  Time since last request: 0.045058 seconds.
+  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_BaseMap.jpg
+  artifactKey: Guid(ad1322b3800aeea4a806a19274142eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_BaseMap.jpg using Guid(ad1322b3800aeea4a806a19274142eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3365ddfb0b2a82d2e63a8937bb628c85') in 0.015158 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Weapons/Perotechnik/Textures Perotechnik/Perotechnik_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(e147981548ab82447a3d0e9c10981020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Textures Perotechnik/Perotechnik_DefaultMaterial_Normal.jpg using Guid(e147981548ab82447a3d0e9c10981020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10b175d96aa729e2f9a1d5c23a5fbae') in 0.007912 seconds 
+  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_MaskMap.jpg
+  artifactKey: Guid(2867c27867aab4f4d8dbc7394611f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_MaskMap.jpg using Guid(2867c27867aab4f4d8dbc7394611f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feede28a4f7a741e109e9c75afcc888') in 0.008500 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.718017 seconds.
-  path: Assets/Weapons/Perotechnik/Textures Perotechnik/Textures Perotechnik.spp
-  artifactKey: Guid(04306dbc44cc1664fb03fabf9903fb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Textures Perotechnik/Textures Perotechnik.spp using Guid(04306dbc44cc1664fb03fabf9903fb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830f735339ac06bca2fd5c72e6bb91f1') in 0.001809 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_Normal.jpg
+  artifactKey: Guid(5d654626245e81c469d5ebe384e19b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_Normal.jpg using Guid(5d654626245e81c469d5ebe384e19b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ccdb6d3d90515b46a85403f05fd334') in 0.009919 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.717467 seconds.
-  path: Assets/Weapons/Perotechnik/Textures Perotechnik/Textures Perotechnik_autosave_1.spp
-  artifactKey: Guid(6e549956d6bec4843921cfb8401c0250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Perotechnik/Textures Perotechnik/Textures Perotechnik_autosave_1.spp using Guid(6e549956d6bec4843921cfb8401c0250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df1b13b2b7fc1904865277fd7ee163e') in 0.005675 seconds 
+  Time since last request: 18.785431 seconds.
+  path: Assets/Caracter/CaracterAnimation/CameraAnimation.mask
+  artifactKey: Guid(51539481727ef164e9c7e19baa4b1a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/CameraAnimation.mask using Guid(51539481727ef164e9c7e19baa4b1a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760a2256ba3959c2c201aaad8947a179') in 0.002618 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.597782 seconds.
-  path: Assets/Weapons/PinFire/PinFire.fbx
-  artifactKey: Guid(dd06c93f84f824748b35c67a7f3aa699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/PinFire/PinFire.fbx using Guid(dd06c93f84f824748b35c67a7f3aa699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b82c79467872531ac59c1e3c9eddb66') in 0.013306 seconds 
+  Time since last request: 1.160794 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels
+  artifactKey: Guid(f4429bc457de9ec4dac3d93e2369c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels using Guid(f4429bc457de9ec4dac3d93e2369c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728de0569823c3f0a5427db6153c919') in 0.005203 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.929724 seconds.
-  path: Assets/Weapons/Shotgun/Shotgun.blend
-  artifactKey: Guid(220ba7b637db57242b5a8d27a269aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shotgun/Shotgun.blend using Guid(220ba7b637db57242b5a8d27a269aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa45658a1b714ff1685de860ac9b0d6') in 0.012045 seconds 
+  Time since last request: 14.068917 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/Animation Cockroach Zombie
+  artifactKey: Guid(cc7f217ea4396a84da420edafd307106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/Animation Cockroach Zombie using Guid(cc7f217ea4396a84da420edafd307106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5fd82a0745fbbea9b35985bf8b2eee') in 0.005642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/Shotgun/Shotgun.fbx
-  artifactKey: Guid(2ca67bdcc277a064487fb5cf90adc72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shotgun/Shotgun.fbx using Guid(2ca67bdcc277a064487fb5cf90adc72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc9d74fd15c714f7995a52be4e03d60') in 0.018764 seconds 
+  Time since last request: 35.501821 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX
+  artifactKey: Guid(cf538d275fb44d64b9043c4f4a68b36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX using Guid(cf538d275fb44d64b9043c4f4a68b36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5223e022ff319b7ca831815372f643f1') in 0.005975 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.430129 seconds.
-  path: Assets/Weapons/Shotgun/Textures Shotgun
-  artifactKey: Guid(1546392e109f7a341bf7b082f4b60c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shotgun/Textures Shotgun using Guid(1546392e109f7a341bf7b082f4b60c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa25f32fa0f798fe25c0796ad064c0d9') in 0.001394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.066080 seconds.
-  path: Assets/Weapons/Shotgun/Textures Shotgun/Shotgun_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(a674698b335128b40af339e694877162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shotgun/Textures Shotgun/Shotgun_DefaultMaterial_BaseMap.jpg using Guid(a674698b335128b40af339e694877162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd206f19dbfb16922f89d83f68d8d5104') in 0.008263 seconds 
+  Time since last request: 0.064940 seconds.
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachHit.fbx
+  artifactKey: Guid(f4814cab0cb78684591cbacc383ea10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachHit.fbx using Guid(f4814cab0cb78684591cbacc383ea10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845831ab9ea86382aec235bac2f574b0') in 0.032586 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Weapons/Shotgun/Textures Shotgun/Shotgun_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(e76d8512c8a1c784b8fb5f72ba01ad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shotgun/Textures Shotgun/Shotgun_DefaultMaterial_Normal.jpg using Guid(e76d8512c8a1c784b8fb5f72ba01ad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add3c327fafbeb10d0a4535107721659') in 0.009012 seconds 
+  path: Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachRun.fbx
+  artifactKey: Guid(74d1c40c01c8a604e87f53d64dab03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachRun.fbx using Guid(74d1c40c01c8a604e87f53d64dab03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddba972a00b0ee815be255004791d05') in 0.029784 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Weapons/Shotgun/Textures Shotgun/Shotgun_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(dcc6bda79cc18674e97070396f9a2e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shotgun/Textures Shotgun/Shotgun_DefaultMaterial_MaskMap.jpg using Guid(dcc6bda79cc18674e97070396f9a2e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979ba10931fcecbb999e2bae999bd0e9') in 0.008822 seconds 
+  Time since last request: 37.581967 seconds.
+  path: Assets/Caracter/TexturesModelCockroach/Синий таракан
+  artifactKey: Guid(87c6892c46275c24ba1ac2a0f3ba2f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан using Guid(87c6892c46275c24ba1ac2a0f3ba2f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3040b3eaedcefe20e2692c8b640e0fa') in 0.005966 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.915916 seconds.
-  path: Assets/Weapons/Shotgun/Textures Shotgun/Textures Shotgun.spp
-  artifactKey: Guid(88b6245250082ca40a11f1dbcd9a39dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shotgun/Textures Shotgun/Textures Shotgun.spp using Guid(88b6245250082ca40a11f1dbcd9a39dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23764d1ffd4cbd152f3d5e877c35c49f') in 0.001813 seconds 
+  Time since last request: 0.055883 seconds.
+  path: Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_BaseMap.jpg
+  artifactKey: Guid(14c0937dc99af4c4db79bcf192707fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_BaseMap.jpg using Guid(14c0937dc99af4c4db79bcf192707fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da59c5915aca36030dd8f20c64337e52') in 0.012025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_Normal.jpg
+  artifactKey: Guid(9cd0d190fc3a4d147b4fc406599a2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_Normal.jpg using Guid(9cd0d190fc3a4d147b4fc406599a2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06452fe836f4fec415d6970a6bd4fa95') in 0.012520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_MaskMap.jpg
+  artifactKey: Guid(a7cbe4caffe671d4596217ad871d180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_MaskMap.jpg using Guid(a7cbe4caffe671d4596217ad871d180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec528b998389f2bb4eec85775d0483e1') in 0.010815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.891932 seconds.
+  path: Assets/Caracter/MaterialsModelCockroach/MaterialDeadDefaultCockroach.mat
+  artifactKey: Guid(722a91a5d7d5a2349a24487c2d4a3a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caracter/MaterialsModelCockroach/MaterialDeadDefaultCockroach.mat using Guid(722a91a5d7d5a2349a24487c2d4a3a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98768312a52b9cd1c8af057cbdd401a') in 0.010988 seconds 
