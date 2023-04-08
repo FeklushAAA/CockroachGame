@@ -15,7 +15,7 @@ E:/GidFuck/CockroachGame/TarakansTesting
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55874
+56073
 Successfully changed project path to: E:/GidFuck/CockroachGame/TarakansTesting
 E:/GidFuck/CockroachGame/TarakansTesting
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/GidFuck/CockroachGame/TarakansTesting
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2008] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2745279394 [EditorId] 2745279394 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11164] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1171846437 [EditorId] 1171846437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2008] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2745279394 [EditorId] 2745279394 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11164] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1171846437 [EditorId] 1171846437 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 65.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,77 +67,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006927 seconds.
+Registered in 0.006887 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.500 seconds
+- Completed reload, in  0.497 seconds
 Domain Reload Profiling:
-	ReloadAssembly (500ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (498ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (348ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (347ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (78ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (210ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003180 seconds.
+Registered in 0.002865 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\GidFuck\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\GidFuck\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.784 seconds
+- Completed reload, in  0.767 seconds
 Domain Reload Profiling:
-	ReloadAssembly (785ms)
+	ReloadAssembly (767ms)
 		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (604ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (585ms)
 			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (188ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (276ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (176ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (179ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3537.
 Memory consumption went from 111.2 MB to 111.1 MB.
-Total: 2.646500 ms (FindLiveObjects: 0.205200 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.267500 ms  DeleteObjects: 0.085600 ms)
+Total: 2.674200 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.298700 ms  DeleteObjects: 0.079400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,109 +166,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1997549.905948 seconds.
-  path: Assets/Caracter/PlayerCharacteristics.asset
-  artifactKey: Guid(6add24ee9ca1d60498563da2a989a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/PlayerCharacteristics.asset using Guid(6add24ee9ca1d60498563da2a989a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce62b897c90d7cb9cf0f41b292d64bb') in 0.028349 seconds 
+  Time since last request: 1998048.608824 seconds.
+  path: Assets/UI/Menu/Options Menu 2.png
+  artifactKey: Guid(ed764a60cae49934eb2da779c0573c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Options Menu 2.png using Guid(ed764a60cae49934eb2da779c0573c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35636d3a3be228f4356df9986c485983') in 0.058954 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Caracter/ShootingCharacteristics.asset
-  artifactKey: Guid(1876ccae88e37b74491360521177dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/ShootingCharacteristics.asset using Guid(1876ccae88e37b74491360521177dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759f0565459210e8e75b17e00571ec5f') in 0.005765 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Menu/LevelBar 1.png
+  artifactKey: Guid(042b7cf3784f0604cae296b7d1971333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/LevelBar 1.png using Guid(042b7cf3784f0604cae296b7d1971333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969c08f0c160d3e9546dc594c83e275d') in 0.011192 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.210545 seconds.
-  path: Assets/Caracter/ModelCockroach/CockroachRigWeight.fbx
-  artifactKey: Guid(fe641d68f21097a4ba8ee8ba94fc88a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/ModelCockroach/CockroachRigWeight.fbx using Guid(fe641d68f21097a4ba8ee8ba94fc88a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbdc1fc57c9a3476df7afae8629cfd7') in 0.122234 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Menu/LevelBar 2.png
+  artifactKey: Guid(28ea3d84a31c94843a65ee657ea0e3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/LevelBar 2.png using Guid(28ea3d84a31c94843a65ee657ea0e3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b190fe52b9853c36218265c5491859') in 0.011484 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.240432 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан
-  artifactKey: Guid(50bb4636906796e45b74c2967d72a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан using Guid(50bb4636906796e45b74c2967d72a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1723bc1383a9aab067103df9f22ccaf6') in 0.006147 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Menu/Options Menu 1.png
+  artifactKey: Guid(c844fde45fcbcbd478160e7ddf0fee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Options Menu 1.png using Guid(c844fde45fcbcbd478160e7ddf0fee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36b826f64a00dd2a79827a925fd3c1f') in 0.009307 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.045058 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(ad1322b3800aeea4a806a19274142eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_BaseMap.jpg using Guid(ad1322b3800aeea4a806a19274142eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3365ddfb0b2a82d2e63a8937bb628c85') in 0.015158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(2867c27867aab4f4d8dbc7394611f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_MaskMap.jpg using Guid(2867c27867aab4f4d8dbc7394611f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feede28a4f7a741e109e9c75afcc888') in 0.008500 seconds 
+  Time since last request: 20.485542 seconds.
+  path: Assets/UI/Menu/LevelBar 1.png
+  artifactKey: Guid(042b7cf3784f0604cae296b7d1971333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/LevelBar 1.png using Guid(042b7cf3784f0604cae296b7d1971333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d76fbfc697ac9924547072ccba6c9b5') in 0.140278 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(5d654626245e81c469d5ebe384e19b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Зомби таракан/Cockroach_DefaultMaterial_Normal.jpg using Guid(5d654626245e81c469d5ebe384e19b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ccdb6d3d90515b46a85403f05fd334') in 0.009919 seconds 
+  path: Assets/UI/Menu/Options Menu 2.png
+  artifactKey: Guid(ed764a60cae49934eb2da779c0573c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Options Menu 2.png using Guid(ed764a60cae49934eb2da779c0573c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02e118dafc23fe84db920588a8d2f33') in 0.078468 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.785431 seconds.
-  path: Assets/Caracter/CaracterAnimation/CameraAnimation.mask
-  artifactKey: Guid(51539481727ef164e9c7e19baa4b1a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/CaracterAnimation/CameraAnimation.mask using Guid(51539481727ef164e9c7e19baa4b1a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760a2256ba3959c2c201aaad8947a179') in 0.002618 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/Menu/LevelBar 2.png
+  artifactKey: Guid(28ea3d84a31c94843a65ee657ea0e3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/LevelBar 2.png using Guid(28ea3d84a31c94843a65ee657ea0e3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3336372bdd02ad9fed72afa34f891610') in 0.062802 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.160794 seconds.
-  path: Assets/Caracter/CaracterAnimation/AnimationModels
-  artifactKey: Guid(f4429bc457de9ec4dac3d93e2369c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/CaracterAnimation/AnimationModels using Guid(f4429bc457de9ec4dac3d93e2369c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5728de0569823c3f0a5427db6153c919') in 0.005203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.068917 seconds.
-  path: Assets/Caracter/CaracterAnimation/AnimationModels/Animation Cockroach Zombie
-  artifactKey: Guid(cc7f217ea4396a84da420edafd307106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/CaracterAnimation/AnimationModels/Animation Cockroach Zombie using Guid(cc7f217ea4396a84da420edafd307106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5fd82a0745fbbea9b35985bf8b2eee') in 0.005642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.501821 seconds.
-  path: Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX
-  artifactKey: Guid(cf538d275fb44d64b9043c4f4a68b36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX using Guid(cf538d275fb44d64b9043c4f4a68b36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5223e022ff319b7ca831815372f643f1') in 0.005975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.064940 seconds.
-  path: Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachHit.fbx
-  artifactKey: Guid(f4814cab0cb78684591cbacc383ea10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachHit.fbx using Guid(f4814cab0cb78684591cbacc383ea10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845831ab9ea86382aec235bac2f574b0') in 0.032586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachRun.fbx
-  artifactKey: Guid(74d1c40c01c8a604e87f53d64dab03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/CaracterAnimation/AnimationModels/ZombieFBX/ZombieCockroachRun.fbx using Guid(74d1c40c01c8a604e87f53d64dab03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddba972a00b0ee815be255004791d05') in 0.029784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.581967 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Синий таракан
-  artifactKey: Guid(87c6892c46275c24ba1ac2a0f3ba2f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан using Guid(87c6892c46275c24ba1ac2a0f3ba2f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3040b3eaedcefe20e2692c8b640e0fa') in 0.005966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055883 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_BaseMap.jpg
-  artifactKey: Guid(14c0937dc99af4c4db79bcf192707fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_BaseMap.jpg using Guid(14c0937dc99af4c4db79bcf192707fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da59c5915aca36030dd8f20c64337e52') in 0.012025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_Normal.jpg
-  artifactKey: Guid(9cd0d190fc3a4d147b4fc406599a2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_Normal.jpg using Guid(9cd0d190fc3a4d147b4fc406599a2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06452fe836f4fec415d6970a6bd4fa95') in 0.012520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_MaskMap.jpg
-  artifactKey: Guid(a7cbe4caffe671d4596217ad871d180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/TexturesModelCockroach/Синий таракан/Cockroach_DefaultMaterial_MaskMap.jpg using Guid(a7cbe4caffe671d4596217ad871d180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec528b998389f2bb4eec85775d0483e1') in 0.010815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.891932 seconds.
-  path: Assets/Caracter/MaterialsModelCockroach/MaterialDeadDefaultCockroach.mat
-  artifactKey: Guid(722a91a5d7d5a2349a24487c2d4a3a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Caracter/MaterialsModelCockroach/MaterialDeadDefaultCockroach.mat using Guid(722a91a5d7d5a2349a24487c2d4a3a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98768312a52b9cd1c8af057cbdd401a') in 0.010988 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Menu/Options Menu 1.png
+  artifactKey: Guid(c844fde45fcbcbd478160e7ddf0fee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Options Menu 1.png using Guid(c844fde45fcbcbd478160e7ddf0fee01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8948e5d2674e8ed4e09d971bdadf3571') in 0.091280 seconds 
