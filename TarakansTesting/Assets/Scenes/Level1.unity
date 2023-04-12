@@ -7998,6 +7998,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5553c5c353e37fe44aae01539660ca27, type: 3}
+--- !u!1 &1438614678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5565097365300442274, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+  m_PrefabInstance: {fileID: 819792041705611761}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1446824422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8921,6 +8926,7 @@ MonoBehaviour:
   ThirdCamera: {fileID: 2096284285}
   firstWeapon: {fileID: 714858792}
   distance: 25
+  crosshair: {fileID: 1438614678}
 --- !u!1 &1575666230
 GameObject:
   m_ObjectHideFlags: 0
@@ -11351,6 +11357,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1460703989, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460703989, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460703990, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 173494292656510846, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 819792041905808266, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
       propertyPath: target
       value: 
@@ -11358,10 +11380,6 @@ PrefabInstance:
     - target: {fileID: 819792041905808267, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
       propertyPath: m_Name
       value: Third person move
-      objectReference: {fileID: 0}
-    - target: {fileID: 819792041905808267, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
-      propertyPath: m_TagString
-      value: Camera
       objectReference: {fileID: 0}
     - target: {fileID: 819792041905808271, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
       propertyPath: m_RootOrder
@@ -11405,6 +11423,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 819792041905808271, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1161175907551714132, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5565097365300442274, guid: f2f40080abc74e74fa654bd16d018fc3, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
