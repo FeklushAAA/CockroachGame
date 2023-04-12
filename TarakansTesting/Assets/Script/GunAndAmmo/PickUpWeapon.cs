@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PickUpWeapon : MonoBehaviour
 {
@@ -22,6 +23,12 @@ public class PickUpWeapon : MonoBehaviour
 
     [SerializeField] private float distance = 15f;
 
+    [Header ("UI элемент руки и текста, которые будут появляться при наведении на оружие")]
+
+    [Space (10)]
+
+    [SerializeField] private GameObject crosshair;
+
     private GameObject currentWeapon;
 
     private bool canPickUp = false;
@@ -42,6 +49,7 @@ public class PickUpWeapon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E)) PickUp();
         // if (Input.GetKeyDown(KeyCode.Q)) Drop();
+        OnWeaponSee();
     }
 
     private void PickUp()
@@ -54,6 +62,8 @@ public class PickUpWeapon : MonoBehaviour
             {
                 if (canPickUp) Drop();
 
+                crosshair.SetActive(!crosshair.activeSelf);
+
                 currentWeapon = hit.transform.gameObject;
                 currentWeapon.GetComponent<Rigidbody>().isKinematic = true;
                 currentWeapon.GetComponent<Collider>().isTrigger = true;
@@ -62,9 +72,28 @@ public class PickUpWeapon : MonoBehaviour
                 currentWeapon.transform.localEulerAngles = new Vector3(0f, 0f, 10f);
                 canPickUp = true;
             }
+            else
+            {
+                crosshair.SetActive(!crosshair.activeSelf);
+            }
         }
+    }
 
-        
+    private void OnWeaponSee()
+    {
+        RaycastHit hit;
+        Ray ray = ThirdCamera.ScreenPointToRay(new Vector3(ThirdCamera.pixelWidth / 2, ThirdCamera.pixelHeight / 2 , 0));
+        if(Physics.Raycast(ray, out hit, distance))
+        {
+            if(hit.transform.tag == "Weapon")
+            {
+                crosshair.SetActive(true);
+            }
+            else
+            {
+                crosshair.SetActive(false);
+            }
+        }
     }
 
     private void Drop()

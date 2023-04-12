@@ -38,9 +38,6 @@ public class WoWcamera : MonoBehaviour
 
     [SerializeField] private GameObject questsList;
 
-    // private float desiredDistance;
-    // private float correctedDistance;
-
     private Animator _animator;
     private float xDeg = 0.0f;
     private float yDeg = 0.0f;
@@ -50,9 +47,6 @@ public class WoWcamera : MonoBehaviour
         _animator = target.GetComponent<Animator>(); //Инициализируем аниматор
         Cursor.lockState = CursorLockMode.Locked; //Блокируем курсор по центру
 
-        // desiredDistance = _camCharacteristics.distance;
-        // correctedDistance = _camCharacteristics.distance;
-        
         if (GetComponent<Rigidbody>())
             GetComponent<Rigidbody>().freezeRotation = true; // Блокируем поворот у компонента Rigidbody
     }
@@ -102,11 +96,7 @@ public class WoWcamera : MonoBehaviour
            
         // Через кватернион подключаем поворот камеры
         Quaternion rotation = Quaternion.Euler(yDeg, xDeg, 0);
-        
-        // Логика приближения камеры при помощи колесика мыши
-        // desiredDistance -= Input.GetAxis ("Mouse ScrollWheel") * Time.deltaTime * _camCharacteristics.zoomRate * Mathf.Abs (desiredDistance);
-        // desiredDistance = Mathf.Clamp (desiredDistance, _camCharacteristics.minDistance, _camCharacteristics.maxDistance);
-        // correctedDistance = desiredDistance;
+
 
         Vector3 position = target.position - (rotation * Vector3.forward * distance);
         position = position + (rotation * Vector3.right * offsetPosition); // корректировка горизонтали
