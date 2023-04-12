@@ -15,21 +15,32 @@ public class Shooting : MonoBehaviour
     [SerializeField] private Transform _spawnPoint;
 
     [SerializeField] private Camera cam;
+
+
     
 
     private void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Rigidbody projectileInstance = Instantiate(_ammo, _spawnPoint.position, _spawnPoint.rotation);
-            projectileInstance.velocity = _spawnPoint.forward * _shooting.AmmoSpeed;
-            projectileInstance.AddForce(_spawnPoint.forward * _shooting.AmmoForce);
-            Debug.Log("Игрок выстрелил");
+            Fire();
         }
-    
+        RayToScreenCenter();
+    }
+
+    private void Fire()
+    {
+        Rigidbody projectileInstance = Instantiate(_ammo, _spawnPoint.position, _spawnPoint.rotation);
+        projectileInstance.velocity = _spawnPoint.forward * _shooting.AmmoSpeed;
+        projectileInstance.AddForce(_spawnPoint.forward * _shooting.AmmoForce);
+        Debug.Log("Игрок выстрелил");
+    }
+
+    private void RayToScreenCenter()
+    {
         Vector3 aimSpot = cam.transform.position;
         //You will want to play around with the 50 to make it feel accurate.
-        aimSpot += cam.transform.forward * 70.0f;
+        aimSpot += cam.transform.forward * 100f;
         transform.LookAt(aimSpot);
     }
 }
