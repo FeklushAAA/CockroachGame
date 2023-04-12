@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5451938889268274909}
   - component: {fileID: 8937101119171471736}
   - component: {fileID: 6620855862810828210}
-  - component: {fileID: -7871984412360976353}
-  - component: {fileID: -6154907574964578406}
+  - component: {fileID: -5917273824840056848}
+  - component: {fileID: -2067202287059655142}
   m_Layer: 0
   m_Name: PinFire
   m_TagString: Weapon
@@ -27,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4675577694850219111}
-  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.39154834, y: 0.12861001, z: 0.023212412}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,7 +85,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-7871984412360976353
+--- !u!64 &-5917273824840056848
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,7 +99,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3700895626169654109, guid: dd06c93f84f824748b35c67a7f3aa699, type: 3}
---- !u!54 &-6154907574964578406
+--- !u!54 &-2067202287059655142
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
