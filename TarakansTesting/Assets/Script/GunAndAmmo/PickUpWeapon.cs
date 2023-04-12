@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PickUpWeapon : MonoBehaviour
 {
-    [SerializeField] private GameObject camera;
+    [SerializeField] private Camera ThirdCamera;
+
+    [SerializeField] private GameObject weaponPlace;
 
     [SerializeField] private float distance = 15f;
 
-    GameObject currentWeapon;
+    private GameObject currentWeapon;
 
     private bool canPickUp = false;
 
@@ -21,7 +23,8 @@ public class PickUpWeapon : MonoBehaviour
     void PickUp()
     {
         RaycastHit hit;
-        if(Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, distance))
+        Ray ray = ThirdCamera.ScreenPointToRay(new Vector3(ThirdCamera.pixelWidth / 2, ThirdCamera.pixelHeight / 2 , 0));
+        if(Physics.Raycast(ray, out hit, distance))
         {
             if(hit.transform.tag == "Weapon")
             {
@@ -32,7 +35,7 @@ public class PickUpWeapon : MonoBehaviour
                 currentWeapon.GetComponent<Collider>().isTrigger = true;
                 currentWeapon.transform.parent = transform;
                 currentWeapon.transform.localPosition = Vector3.zero;
-                currentWeapon.transform.localEulerAngles = new Vector3(0f, 0f, 0f);
+                currentWeapon.transform.localEulerAngles = new Vector3(0f, 180f, 10f);
                 canPickUp = true;
             }
         }

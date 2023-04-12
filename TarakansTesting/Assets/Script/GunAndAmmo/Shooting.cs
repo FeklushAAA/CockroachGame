@@ -29,7 +29,7 @@ public class Shooting : MonoBehaviour
     
         Vector3 aimSpot = cam.transform.position;
         //You will want to play around with the 50 to make it feel accurate.
-        aimSpot += cam.transform.forward * 50.0f;
+        aimSpot += cam.transform.forward * 70.0f;
         transform.LookAt(aimSpot);
     }
 }
