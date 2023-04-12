@@ -4,9 +4,21 @@ using UnityEngine;
 
 public class PickUpWeapon : MonoBehaviour
 {
+    [Header ("Объект с камерой")]
+
+    [Space (10)]
+
     [SerializeField] private Camera ThirdCamera;
 
-    [SerializeField] private GameObject weaponPlace;
+    [Header ("Оружие, которое будет в начале сцены")]
+
+    [Space (10)]
+
+    [SerializeField] private GameObject firstWeapon;
+
+    [Header ("Дистанция, на которой можно поднять оружие")]
+
+    [Space (10)]
 
     [SerializeField] private float distance = 15f;
 
@@ -14,13 +26,25 @@ public class PickUpWeapon : MonoBehaviour
 
     private bool canPickUp = false;
 
-    void Update()
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.E)) PickUp();
-        if (Input.GetKeyDown(KeyCode.Q)) Drop();
+        currentWeapon = firstWeapon;
+        currentWeapon.GetComponent<Rigidbody>().isKinematic = true;
+        currentWeapon.GetComponent<Collider>().isTrigger = true;
+        currentWeapon.transform.parent = transform;
+        currentWeapon.transform.localPosition = Vector3.zero;
+        currentWeapon.transform.localEulerAngles = new Vector3(0f, 0f, 10f);
+        canPickUp = true;
     }
 
-    void PickUp()
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E)) PickUp();
+        // if (Input.GetKeyDown(KeyCode.Q)) Drop();
+    }
+
+    private void PickUp()
     {
         RaycastHit hit;
         Ray ray = ThirdCamera.ScreenPointToRay(new Vector3(ThirdCamera.pixelWidth / 2, ThirdCamera.pixelHeight / 2 , 0));
@@ -35,7 +59,7 @@ public class PickUpWeapon : MonoBehaviour
                 currentWeapon.GetComponent<Collider>().isTrigger = true;
                 currentWeapon.transform.parent = transform;
                 currentWeapon.transform.localPosition = Vector3.zero;
-                currentWeapon.transform.localEulerAngles = new Vector3(0f, 180f, 10f);
+                currentWeapon.transform.localEulerAngles = new Vector3(0f, 0f, 10f);
                 canPickUp = true;
             }
         }
@@ -43,7 +67,7 @@ public class PickUpWeapon : MonoBehaviour
         
     }
 
-    void Drop()
+    private void Drop()
     {
         currentWeapon.transform.parent = null;
         currentWeapon.GetComponent<Rigidbody>().isKinematic = false;
