@@ -27,11 +27,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7755170193373501416}
-  m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5272960554083544548}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -115,3 +116,52 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &8302031796779617477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5272960554083544548}
+  - component: {fileID: 204035679183679461}
+  m_Layer: 0
+  m_Name: AmmoSpawnerLego
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5272960554083544548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302031796779617477}
+  m_LocalRotation: {x: 0.000000014901188, y: -0.00000009685745, z: 0.0000003241002, w: 1}
+  m_LocalPosition: {x: 0, y: 0.00097, z: 0.00477}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6977261780809141586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &204035679183679461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8302031796779617477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532af674fccffcb42a0a41ea268ada40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camCharacteristics: {fileID: 11400000, guid: 69d7df1d8b1863841b02798bb83d5b95, type: 2}
+  _shooting: {fileID: 11400000, guid: 1876ccae88e37b74491360521177dce6, type: 2}
+  _ammo: {fileID: 3456958946569007481, guid: 7436bf87e06cf234293dd5dc2c730e3d, type: 3}
+  _spawnPoint: {fileID: 5272960554083544548}
+  cam: {fileID: 0}
