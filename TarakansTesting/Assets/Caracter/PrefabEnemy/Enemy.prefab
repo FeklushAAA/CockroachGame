@@ -3783,7 +3783,7 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.19821915
-  m_Height: 1.5561101
+  m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0.0019710064, y: 0.73515785, z: 0.0042558904}
 --- !u!114 &8249792835541513538
@@ -3813,9 +3813,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _shooting: {fileID: 11400000, guid: 1876ccae88e37b74491360521177dce6, type: 2}
-  _enemyAmmo: {fileID: -7963146801703418990, guid: 1df86b003a179a541b238ca283f12e76, type: 3}
+  _enemyAmmo: {fileID: 491849133373143143, guid: df64146993e40c24bab25e97b24460c7, type: 3}
   _enemySpawnPoint: {fileID: 1595192819}
-  attackDamage: 10
   WayPoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -3834,7 +3833,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.2
-  m_Height: 1.63
+  m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.72, z: 0}
 --- !u!54 &1814196046
@@ -3864,7 +3863,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.2
-  m_Height: 1.63
+  m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.72, z: 0}
 --- !u!195 &1814196044

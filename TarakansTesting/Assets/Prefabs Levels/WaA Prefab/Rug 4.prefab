@@ -12,11 +12,12 @@ GameObject:
   - component: {fileID: 4111525221782961505}
   - component: {fileID: 2228126426991577515}
   - component: {fileID: -7289152073899066294}
+  - component: {fileID: 6952556473024763481}
   m_Layer: 0
   m_Name: Rug 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1054064356429509316
@@ -98,3 +99,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5900208620771120975, guid: cc537864810f4e844a285f692b1653d4, type: 3}
+--- !u!208 &6952556473024763481
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426462481600342142}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.058000002, y: 0.001, z: 0.029000001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.001, y: 0.001, z: -0.008}
+  m_TimeToStationary: 0.5
