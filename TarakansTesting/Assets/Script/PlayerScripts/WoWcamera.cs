@@ -81,11 +81,6 @@ public class WoWcamera : MonoBehaviour
 
     private void LateUpdate ()
     {
-        // Проверяем, если наш персонаж не обнаружен на сцене, камера ничего делать не будет
-        if (!target)
-                return;
-
-        
         xDeg += Input.GetAxis("Mouse X") * _camCharacteristics.xSpeed * 0.02f;
         yDeg -= Input.GetAxis("Mouse Y") * _camCharacteristics.ySpeed * 0.02f;
         yDeg = Mathf.Clamp(yDeg, _camCharacteristics.MinVerticalAngle, _camCharacteristics.MaxVerticalAngle); // ограничиваем угол возвышения камеры        
