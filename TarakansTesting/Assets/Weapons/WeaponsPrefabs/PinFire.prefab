@@ -1,5 +1,55 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2742247748088810595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1767385845275504588}
+  - component: {fileID: 2717476098178759452}
+  m_Layer: 0
+  m_Name: AmmoSpawnerRay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767385845275504588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2742247748088810595}
+  m_LocalRotation: {x: 0.000000014901188, y: -0.00000009685745, z: 0.0000003241002, w: 1}
+  m_LocalPosition: {x: 0, y: 0.001193, z: 0.00995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5451938889268274909}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2717476098178759452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2742247748088810595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532af674fccffcb42a0a41ea268ada40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  _camCharacteristics: {fileID: 11400000, guid: 69d7df1d8b1863841b02798bb83d5b95, type: 2}
+  _shooting: {fileID: 11400000, guid: 1876ccae88e37b74491360521177dce6, type: 2}
+  _ammo: {fileID: 491849133373143143, guid: 1b246e3ea2d7d3f4da998168a3f5a33b, type: 3}
+  _spawnPoint: {fileID: 1767385845275504588}
+  cam: {fileID: 0}
 --- !u!1 &4675577694850219111
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,7 +81,8 @@ Transform:
   m_LocalPosition: {x: -0.39154834, y: 0.12861001, z: 0.023212412}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1767385845275504588}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

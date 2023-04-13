@@ -41,12 +41,18 @@ public class WoWcamera : MonoBehaviour
     private Animator _animator;
     private float xDeg = 0.0f;
     private float yDeg = 0.0f;
+
+    // private float desiredDistance;
+    // private float correctedDistance;
        
     private void Start ()
     {
         _animator = target.GetComponent<Animator>(); //Инициализируем аниматор
         Cursor.lockState = CursorLockMode.Locked; //Блокируем курсор по центру
 
+        // desiredDistance = _camCharacteristics.distance;
+        // correctedDistance = _camCharacteristics.distance;
+        
         if (GetComponent<Rigidbody>())
             GetComponent<Rigidbody>().freezeRotation = true; // Блокируем поворот у компонента Rigidbody
     }
@@ -85,6 +91,10 @@ public class WoWcamera : MonoBehaviour
         yDeg -= Input.GetAxis("Mouse Y") * _camCharacteristics.ySpeed * 0.02f;
         yDeg = Mathf.Clamp(yDeg, _camCharacteristics.MinVerticalAngle, _camCharacteristics.MaxVerticalAngle); // ограничиваем угол возвышения камеры        
         
+        // Логика приближения камеры при помощи колесика мыши
+        // desiredDistance -= Input.GetAxis ("Mouse ScrollWheel") * Time.deltaTime * _camCharacteristics.zoomRate * Mathf.Abs (desiredDistance);
+        // desiredDistance = Mathf.Clamp (desiredDistance, _camCharacteristics.minDistance, _camCharacteristics.maxDistance);
+        // correctedDistance = desiredDistance;
 
         // Передаем в аниматор изменение координаты по У
         _animator.SetFloat("WeaponUp", yDeg);
