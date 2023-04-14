@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/EBY GIT/CockroachGame/TarakansTesting
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57370
+Successfully changed project path to: E:/EBY GIT/CockroachGame/TarakansTesting
+E:/EBY GIT/CockroachGame/TarakansTesting
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4892] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 1733647564 [EditorId] 1733647564 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4892] Host "[IP] 192.168.0.11 [Port] 0 [Flags] 2 [Guid] 1733647564 [EditorId] 1733647564 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BD7KT01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 65.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/EBY GIT/CockroachGame/TarakansTesting/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005985 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (500ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (350ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002827 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\EBY GIT\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\EBY GIT\CockroachGame\TarakansTesting\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3539.
+Memory consumption went from 111.2 MB to 111.1 MB.
+Total: 2.600100 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.194800 ms  DeleteObjects: 0.078400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67964.632512 seconds.
+  path: Assets/UI
+  artifactKey: Guid(51d084f4aaf73bd49a6c6ae398137f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(51d084f4aaf73bd49a6c6ae398137f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557e73800bb978ac88439535502c3d5e') in 0.010937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.363390 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen
+  artifactKey: Guid(fa424b9290e80594da2c4afb07b15837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen using Guid(fa424b9290e80594da2c4afb07b15837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb59b08a7b1b4118b7493b028358199e') in 0.005900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.102638 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 0.png
+  artifactKey: Guid(11375433fc229f34fa8d80fd051cef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 0.png using Guid(11375433fc229f34fa8d80fd051cef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fa2b17efac8b47cd2029e5d7c1640e') in 0.065271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 2.png
+  artifactKey: Guid(02d642ccfbfa3e441b1791fda11459bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 2.png using Guid(02d642ccfbfa3e441b1791fda11459bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a1f5375a7502dd4cceef96423deaec') in 0.011151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 3.png
+  artifactKey: Guid(22d1f92abb15c23459a694d312b025fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 3.png using Guid(22d1f92abb15c23459a694d312b025fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8845af5368b72777b95ac9263992b7d7') in 0.011811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 8.png
+  artifactKey: Guid(329b6762fa9b887469d9cf04023edfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 8.png using Guid(329b6762fa9b887469d9cf04023edfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9aaa36ae6cc909abc842ba13730020') in 0.014339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 11.png
+  artifactKey: Guid(43a56e26544bd3e48a76adb1e1cbcc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 11.png using Guid(43a56e26544bd3e48a76adb1e1cbcc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9c3322e3e527ed387c5bf4780a3b4f') in 0.010372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 7.png
+  artifactKey: Guid(2fc16f6ce0f556342a2eb7e89ec9f9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 7.png using Guid(2fc16f6ce0f556342a2eb7e89ec9f9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfab494ac635ef7780db5bd4f676fad') in 0.011865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 12.png
+  artifactKey: Guid(70ac21afc2a7acd4fb61dc5be02a04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 12.png using Guid(70ac21afc2a7acd4fb61dc5be02a04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2ac6a96e514f08710fc4657a932cee') in 0.012070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 13.png
+  artifactKey: Guid(4d6370a708d9e834faaafb6f1944d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 13.png using Guid(4d6370a708d9e834faaafb6f1944d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f4bf940564b559c598953234bc7846') in 0.008236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 9.png
+  artifactKey: Guid(f0876329a93b331498fc0e0d404d5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 9.png using Guid(f0876329a93b331498fc0e0d404d5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885ea531d6878568f4284176e1889aa5') in 0.008109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 4.png
+  artifactKey: Guid(1e87c65ed853c7646aa7b9bf51c3dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 4.png using Guid(1e87c65ed853c7646aa7b9bf51c3dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155f16206ba67830f80984de022498c5') in 0.008589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 10.png
+  artifactKey: Guid(269eb4766e44a0049a5746cb069afd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 10.png using Guid(269eb4766e44a0049a5746cb069afd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8071c05b729c7fddf4b1cd436f2bfe') in 0.007983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 1.png
+  artifactKey: Guid(e4b2505e0afaa6248ba9bc5a46083fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 1.png using Guid(e4b2505e0afaa6248ba9bc5a46083fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7907d4bc051837309d835453ccf176b2') in 0.007795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 6.png
+  artifactKey: Guid(d73ff2c1d2a93f647ad13a32f3e113ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 6.png using Guid(d73ff2c1d2a93f647ad13a32f3e113ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3671b5b4bc75ccd5f19fe8f0a76f5fad') in 0.007414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 5.png
+  artifactKey: Guid(1cdf6f05b1c2f704a9849c6b39e52dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 5.png using Guid(1cdf6f05b1c2f704a9849c6b39e52dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5859275761f8b2ccbabf73a32e4a14') in 0.007573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.246647 seconds.
+  path: Assets/UI/Menu/front wall.png
+  artifactKey: Guid(5570a9aa7d489b445a7484efdd7e10e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/front wall.png using Guid(5570a9aa7d489b445a7484efdd7e10e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032b142435486bd0f4f4e30086ca05ad') in 0.010780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Menu/Level background.png
+  artifactKey: Guid(25ae32438f23275469b1cc1ec31e26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Level background.png using Guid(25ae32438f23275469b1cc1ec31e26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a196c4702213f5aaa5510c976239a75') in 0.008371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Menu/PLAY.png
+  artifactKey: Guid(7cd2ec6f74dcbac44990fe8f7dd03fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/PLAY.png using Guid(7cd2ec6f74dcbac44990fe8f7dd03fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b742e10ca0cd7d7b9698f95252bc265') in 0.007601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.304802 seconds.
+  path: Assets/UI/Menu/Level background.png
+  artifactKey: Guid(25ae32438f23275469b1cc1ec31e26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Level background.png using Guid(25ae32438f23275469b1cc1ec31e26ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746493acb2ec4486e693e6b1d10b89e8') in 0.204651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Menu/PLAY.png
+  artifactKey: Guid(7cd2ec6f74dcbac44990fe8f7dd03fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/PLAY.png using Guid(7cd2ec6f74dcbac44990fe8f7dd03fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1ea9fb39fcf53ec4cfc6f7ffa5108f') in 0.026808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/Menu/front wall.png
+  artifactKey: Guid(5570a9aa7d489b445a7484efdd7e10e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/front wall.png using Guid(5570a9aa7d489b445a7484efdd7e10e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d1299c0b2b10bfddc21cad7cceb88c') in 0.088674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 286.662989 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 5.png
+  artifactKey: Guid(1cdf6f05b1c2f704a9849c6b39e52dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 5.png using Guid(1cdf6f05b1c2f704a9849c6b39e52dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6423d000c461e63951063d34ad48ffc5') in 0.087740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 2.png
+  artifactKey: Guid(02d642ccfbfa3e441b1791fda11459bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 2.png using Guid(02d642ccfbfa3e441b1791fda11459bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6508ae087fd6ea66e284eb1b1f6a6c01') in 0.089092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 3.png
+  artifactKey: Guid(22d1f92abb15c23459a694d312b025fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 3.png using Guid(22d1f92abb15c23459a694d312b025fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06478d0fd7fbe749471e87399ade9a66') in 0.089760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 8.png
+  artifactKey: Guid(329b6762fa9b887469d9cf04023edfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 8.png using Guid(329b6762fa9b887469d9cf04023edfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37190d6f6fcc18e2c7fc135fde3e1571') in 0.086029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 11.png
+  artifactKey: Guid(43a56e26544bd3e48a76adb1e1cbcc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 11.png using Guid(43a56e26544bd3e48a76adb1e1cbcc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed3c136bb3bc7e5f3155e43b2cf2bf3') in 0.085970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 7.png
+  artifactKey: Guid(2fc16f6ce0f556342a2eb7e89ec9f9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 7.png using Guid(2fc16f6ce0f556342a2eb7e89ec9f9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6298cfcc2ef0d9021fdce575a974365') in 0.084068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 12.png
+  artifactKey: Guid(70ac21afc2a7acd4fb61dc5be02a04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 12.png using Guid(70ac21afc2a7acd4fb61dc5be02a04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30329e99b50a7274ded1a4002712571') in 0.085696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 13.png
+  artifactKey: Guid(4d6370a708d9e834faaafb6f1944d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 13.png using Guid(4d6370a708d9e834faaafb6f1944d9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb83bc55b9375241c97bb83479d7d88') in 0.088407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 9.png
+  artifactKey: Guid(f0876329a93b331498fc0e0d404d5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 9.png using Guid(f0876329a93b331498fc0e0d404d5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec36076f6abaa0102dff7846807de33') in 0.084288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 4.png
+  artifactKey: Guid(1e87c65ed853c7646aa7b9bf51c3dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 4.png using Guid(1e87c65ed853c7646aa7b9bf51c3dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54b1ba724b1ca70bdb9ecc46348e75f') in 0.083772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 10.png
+  artifactKey: Guid(269eb4766e44a0049a5746cb069afd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 10.png using Guid(269eb4766e44a0049a5746cb069afd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc156c0da50a38ab5084dd10a835f0da') in 0.087131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 1.png
+  artifactKey: Guid(e4b2505e0afaa6248ba9bc5a46083fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 1.png using Guid(e4b2505e0afaa6248ba9bc5a46083fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a92176219917b0fae2f8185856a295') in 0.084912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 6.png
+  artifactKey: Guid(d73ff2c1d2a93f647ad13a32f3e113ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 6.png using Guid(d73ff2c1d2a93f647ad13a32f3e113ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd7769b9a969cdc0d34ab76b75b5c0a') in 0.085319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Menu/Sprite TV location screen/TV location screen 0.png
+  artifactKey: Guid(11375433fc229f34fa8d80fd051cef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Menu/Sprite TV location screen/TV location screen 0.png using Guid(11375433fc229f34fa8d80fd051cef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac53bab228802f70546cf882b609d73') in 0.082132 seconds 
