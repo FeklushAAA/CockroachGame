@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2336,7 +2336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034026402209820283, guid: 696a74e12d0ca934e84c815816e754e1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.05715
+      value: -9.89
       objectReference: {fileID: 0}
     - target: {fileID: 5034026402209820283, guid: 696a74e12d0ca934e84c815816e754e1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3473,7 +3473,7 @@ MonoBehaviour:
   m_Effectors:
   - m_Transform: {fileID: 0}
     m_Style:
-      shape: {fileID: 4300000, guid: 687b70eb9c49243639f9379f6965034f, type: 2}
+      shape: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 0.5}
       size: 0.1
       position: {x: 0, y: 0, z: 0}
@@ -3481,7 +3481,7 @@ MonoBehaviour:
     m_Visible: 1
   - m_Transform: {fileID: 0}
     m_Style:
-      shape: {fileID: 4300000, guid: 687b70eb9c49243639f9379f6965034f, type: 2}
+      shape: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 0.5}
       size: 0.1
       position: {x: 0, y: 0, z: 0}
@@ -3489,7 +3489,7 @@ MonoBehaviour:
     m_Visible: 1
   - m_Transform: {fileID: 1932045337}
     m_Style:
-      shape: {fileID: 4300000, guid: 687b70eb9c49243639f9379f6965034f, type: 2}
+      shape: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 0.5}
       size: 0.1
       position: {x: 0, y: 0, z: 0}
@@ -8793,7 +8793,7 @@ MonoBehaviour:
   m_Effectors:
   - m_Transform: {fileID: 1785882975}
     m_Style:
-      shape: {fileID: 4300000, guid: e050c2b16fe384bd994474655a4b4968, type: 2}
+      shape: {fileID: 0}
       color: {r: 1, g: 0, b: 0, a: 0.5}
       size: 0.1
       position: {x: 0, y: 0, z: 0}
