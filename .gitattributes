@@ -1,0 +1,56 @@
+## Unity ##
+
+*.cs *=csharp text
+*.cginc text
+*.shader text
+
+*.mat *=unityyamlmerge eol=lf
+*.anim *=unityyamlmerge eol=lf
+*.unity *=unityyamlmerge eol=lf
+*.prefab *=unityyamlmerge eol=lf
+*.physicsMaterial2D *=unityyamlmerge eol=lf
+*.physicMaterial *=unityyamlmerge eol=lfs
+*.asset *=unityyamlmerge eol=lf
+*.meta *=unityyamlmerge eol=lf
+*.controller *=unityyamlmerge eol=lf
+
+
+## git-lfs ##
+
+#Image
+*.jpg *=lfs diff=lfs merge=lfs -text
+*.jpeg *=lfs diff=lfs merge=lfs -text
+*.png *=lfs diff=lfs merge=lfs -text
+*.gif *=lfs diff=lfs merge=lfs -text
+*.psd *=lfs diff=lfs merge=lfs -text
+*.ai *=lfs diff=lfs merge=lfs -text
+*.tif *=lfs diff=lfs merge=lfs -text
+
+#Audio
+*.mp3 *=lfs diff=lfs merge=lfs -text
+*.wav *=lfs diff=lfs merge=lfs -text
+*.ogg *=lfs diff=lfs merge=lfs -text
+
+#Video
+*.mp4 *=lfs diff=lfs merge=lfs -text
+*.mov *=lfs diff=lfs merge=lfs -text
+
+#3D Object
+*.FBX *=lfs diff=lfs merge=lfs -text
+*.fbx *=lfs diff=lfs merge=lfs -text
+*.blend *=lfs diff=lfs merge=lfs -text
+*.obj *=lfs diff=lfs merge=lfs -text
+
+#ETC
+*.a *=lfs diff=lfs merge=lfs -text
+*.exr *=lfs diff=lfs merge=lfs -text
+*.tga *=lfs diff=lfs merge=lfs -text
+*.pdf *=lfs diff=lfs merge=lfs -text
+*.zip *=lfs diff=lfs merge=lfs -text
+*.dll *=lfs diff=lfs merge=lfs -text
+*.unitypackage *=lfs diff=lfs merge=lfs -text
+*.aif *=lfs diff=lfs merge=lfs -text
+*.ttf *=lfs diff=lfs merge=lfs -text
+*.rns *=lfs diff=lfs merge=lfs -text
+*.reason *=lfs diff=lfs merge=lfs -text
+*.lxo *=lfs diff=lfs merge=lfs -text
